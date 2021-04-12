@@ -1,7 +1,7 @@
 Datensatzdokumentation  
 # SARS-CoV-2-Nowcasting und -R-Schätzung
 
-[Robert Koch-Institut](https://grid.ac/institutes/grid.13652.33) | RKI 
+[Robert Koch-Institut](https://grid.ac/institutes/grid.13652.33) | RKI  
 Nordufer 20  
 13353 Berlin  
 
@@ -16,9 +16,9 @@ MF 4 | Forschungsdatenmanagement
 [Hannes Wuensche](https://orcid.org/0000-0002-8837-0326) (Datenkuration)  
 
 ---
-an der Heiden, Matthias (2021): SARS-CoV-2 Nowcasting und R Schaetzung, Berlin: Zenodo. [DOI:muss.hier_eingetragen/werden](http://dx.doi.org/10.0000/0000)  
+an der Heiden, Matthias (2021): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. [DOI:muss.hier_eingetragen/werden](http://dx.doi.org/10.0000/0000)  
 
-Der Datensatz "SARS-CoV-2-Nowcasting und -R-Schaetzung" steht unter der [Creative Commons Lizenz Attribution 4.0 | CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)  
+Der Datensatz "SARS-CoV-2-Nowcasting und -R-Schaetzung" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)  
 
 ## Informationen zur Studie und zum Forschungskontext
 
@@ -53,7 +53,7 @@ In Deutschland werden gemäß der Meldepflicht nach Infektionsschutzgesetz (IfSG
 Grundlage der Berechnungen des Nowcastings und der R-Schätzungen sind die aktuellen, durch die Gesundheitsämter an des Robert Koch-Institut gemeldeten, SARS-CoV-2-Infektionen in Deutschland. Die öffentlich zur Verfügung gestellten Daten der Infektionsmeldungen sind im [SARS-CoV-2 Daten-Dashboard des RKI](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/data) abrufbar. Auf Basis der gemeldeten SARS-CoV-2-Infektionen erfolgen die Fallzahlenschätzungen und die R-Wert-Berechnung in folgenden Schritten:   
 
 1. Multiple Imputation fehlender Information zum Erkrankungsbeginn von COVID-19-Fällen unter einer Missing-at-Random-Annahme 
-2. Korrektur der Anzahl von Neuerkrankungen für den Diagnose-, Melde- und Übermittlungsverzug mittels des Nowcasting-Verfahren 
+2. Korrektur der Anzahl von Neuerkrankungen für den Diagnose-, Melde- und Übermittlungsverzug mittels des Nowcasting-Verfahrens
 3. Berechnung der zeitlich variierenden Reproduktionszahl unter der Annahme einer Generationszeit von 4 Tagen 
 
 Eine detaillierte Beschreibung der Methoden, Instrumente und des Verlaufs der Datengenerierung findet sich in folgenden Publikationen, die ebenfalls im Datensatz enthalten sind:
@@ -65,62 +65,62 @@ Eine detaillierte Beschreibung der Methoden, Instrumente und des Verlaufs der Da
 
 ### Daten und Datenaufbereitung
 
-Zentrales Datum des Datensatzes ist die Tabelle mit dem Nowcasting der aktuellen Infektionen und der sich daraus ergebenden R-Werte. Die Tabelle erhält den Dateinamen "Nowcast_R_JJJJ-MM-DD". Im Dateinamen repräsentiert die Sequenz "JJJJ-MM-TT" das Erstellungsdatum der Datei und damit gleichzeitig das Datum des enthaltenen Datenstands. "JJJJ" steht dabei für das Jahr, "MM" für den Monat und "TT" für den Tag der Erstellung bzw. des enthaltenen Datenstands.   
+Zentrales Datum des Datensatzes ist die Tabelle mit dem Nowcasting der aktuellen Infektionen und der sich daraus ergebenden R-Werte. Die Tabelle erhält den Dateinamen "Nowcast_R_JJJJ-MM-TT". Im Dateinamen repräsentiert die Sequenz "JJJJ-MM-TT" das Erstellungsdatum der Datei und damit gleichzeitig das Datum des enthaltenen Datenstands. "JJJJ" steht dabei für das Jahr, "MM" für den Monat und "TT" für den Tag der Erstellung bzw. des enthaltenen Datenstands.   
 
->Nowcast_R_JJJJ-MM-DD.csv
+>Nowcast_R_JJJJ-MM-TT.csv
 
-Der Tabelle des Nowcastings und der R Schätzung wird jeden Tag um die Zeile der Daten des vergangene Tages erweitert. Die Fallzahlenschätzungen und R-Wert Angaben bilden einen tagesaktuellen Stand (00:00 Uhr) ab.  
+Die Tabelle des Nowcastings und der R-Schätzung wird jeden Tag um die Zeile der Daten des vergangenen Tages erweitert. Die Fallzahlenschätzungen und R-Wert-Angaben bilden einen tagesaktuellen Stand (00:00 Uhr) ab.  
 Die Schätzwerte zur Anzahl von Neuerkrankungen und der R-Schätzung zu früheren Tagen können von den Angaben in früheren Versionen der Tabelle abweichen, weil täglich der Gesamtverlauf, aufgrund der aktuell verfügbaren Daten, neu geschätzt wird.
 
-#### Formatierung der Nowcasting und R Schätzung Tabelle 
+#### Formatierung der Nowcasting-und-R-Schätzung-Tabelle 
 
-Das Nowcasting und die R Schätzung sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der .csv Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",". Datumsangaben sind im ISO8601 Standard formatiert.
+Das Nowcasting und die R-Schätzung sind im Datensatz als kommaseparierte .csv-Datei enthalten. Der verwendete Zeichensatz der .csv-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",". Datumsangaben sind im ISO-8601-Standard formatiert.
 
 * Zeichensatz: UTF-8  
-* Datumsformat: ISO8601  
-* .csv Trennzeichen: Komma ","  
+* Datumsformat: ISO 8601  
+* .csv-Trennzeichen: Komma ","  
 
-#### Variablen des Nowcastings und der R Schätzung 
+#### Variablen des Nowcastings und der R-Schätzung 
 
-Vier zentrale Variablen sind im Nowcastings und der R Schätzung für jeden Tag JJJJ-MM-TT abgebildet:
+Vier zentrale Variablen sind im Nowcasting und in der R-Schätzung für jeden Tag JJJJ-MM-TT abgebildet:
 
 - Punktschätzer der Anzahl an Neuerkrankungen (ohne Glättung)
-    - ohne Glättung: ohne Bildung eines gleitenden Mittelwerts und 
+    - ohne Glättung: ohne Bildung eines gleitenden Mittelwerts
 - Punktschätzer der Anzahl an Neuerkrankungen (mit Glättung)
     - mit Glättung: unter Bildung eines gleitenden Mittelwerts über 4 Tage
     - jeder Wert mit den Werten der 3 vorhergehenden Tage gemittelt
-- Punktschätzer des 4-Tage R-Werts
-- Punktschätzer des 7-Tage R-Werts
+- Punktschätzer des 4-Tage-R-Werts
+- Punktschätzer des 7-Tage-R-Werts
 
-Zu jedem dieser Variablen ist darüber hinaus, das 95%-Prädiktionsintervall mit einem Ober- und einer Untergrenze angegeben. In der folgenden Tabelle sind die sich daraus ergebenden Variablen und deren Ausprägungen angegeben:
+Zu jeder dieser Variablen ist darüber hinaus das 95%-Prädiktionsintervall mit einer Ober- und einer Untergrenze angegeben. In der folgenden Tabelle sind die sich daraus ergebenden Variablen und deren Ausprägungen angegeben:
 
 
 | Merkmal | Ausprägung | Erläuterung |
 | -------- | -------- | -------- |
-|Datum | JJJJ-MM-DD |Datum der geschätzten Neuinfektionen und der sich ergebenden R-Werte. JJJJ entspricht der Jahreszahl, MM dem Monat und TT dem Tag. |
+|Datum | JJJJ-MM-TT |Datum der geschätzten Neuinfektionen und der sich ergebenden R-Werte. JJJJ entspricht der Jahreszahl, MM dem Monat und TT dem Tag. |
 |PS_COVID_Faelle| Natürliche Zahl| Punktschätzer der Anzahl an Neuerkrankungen (ohne Glättung)|
 |UG_PI_COVID_Faelle| Natürliche Zahl | Untere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (ohne Glättung)|
 |OG_PI_COVID_Faelle| Natürliche Zahl | Obere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (ohne Glättung)|
 |PS_COVID_Faelle_ma4| Natürliche Zahl | Punktschätzer der Anzahl an Neuerkrankungen (mit Glättung)|
 |UG_PI_COVID_Faelle_ma4|Natürliche Zahl |Untere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (mit Glättung) |
 |OG_PI_COVID_Faelle_ma4| Natürliche Zahl | Obere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (mit Glättung) |
-|PS_4_Tage_R_Wert|Rationale Zahl |Punktschätzer des 4-Tage R-Werts |
-|UG_PI_4_Tage_R_Wert| Rationale Zahl| Untere Grenze des 95%-Prädiktionsintervalls des 4-Tage R-Werts|
-|OG_PI_4_Tage_R_Wert|Rationale Zahl | Obere Grenze des 95%-Prädiktionsintervalls des 4-Tage R-Werts|
-|PS_7_Tage_R_Wert| Rationale Zahl| Punktschätzer des 7-Tage-R Werts|
-|UG_PI_7_Tage_R_Wert| Rationale Zahl | Untere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R Werts |
-|OG_PI_7_Tage_R_Wert| Rationale Zahl | Obere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R Werts |
+|PS_4_Tage_R_Wert|Rationale Zahl |Punktschätzer des 4-Tage-R-Werts |
+|UG_PI_4_Tage_R_Wert| Rationale Zahl| Untere Grenze des 95%-Prädiktionsintervalls des 4-Tage-R-Werts|
+|OG_PI_4_Tage_R_Wert|Rationale Zahl | Obere Grenze des 95%-Prädiktionsintervalls des 4-Tage-R-Werts|
+|PS_7_Tage_R_Wert| Rationale Zahl| Punktschätzer des 7-Tage-R-Werts|
+|UG_PI_7_Tage_R_Wert| Rationale Zahl | Untere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R-Werts |
+|OG_PI_7_Tage_R_Wert| Rationale Zahl | Obere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R-Werts |
 
 
 ### Hinweise zur Nachnutzung der Daten
 
-Offene Forschungsdaten des RKI werden GitHub.com sowie Zenodo.org bereitgestellt: 
+Offene Forschungsdaten des RKI werden auf GitHub.com sowie Zenodo.org bereitgestellt: 
 * https://github.com/robert-koch-institut
 * https://zenodo.org/communities/robertkochinstitut  
 
 #### Metadaten
 
-Die bereitgestellten Daten sind mit Metadaten beschreiben und wissenschaftlich zitierbar, u.a. durch die Vergabe einer DOI durch Zenodo.org. Die für den Import in Zenodo bereitgestellten Metadaten sind in folgender Datei hinterlegt:  
+Die bereitgestellten Daten sind mit Metadaten beschrieben und wissenschaftlich zitierbar, u.a. durch die Vergabe einer DOI durch Zenodo.org. Die für den Import in Zenodo bereitgestellten Metadaten sind in folgender Datei hinterlegt:  
 
 > .zenodo.json 
 
@@ -128,12 +128,10 @@ Die Dokumentation der einzelen Metadatenvariablen ist unter https://developers.z
 
 #### Lizenz
 
-Der Datensatz "SARS-CoV-2 Nowcasting und R Schätzung" steht unter der Creative Commons Lizenz Attribution 4.0 | CC-BY 4.0  
+Der Datensatz "SARS-CoV-2-Nowcasting und -R-Schaetzung" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
 
-Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Autors als Quelle, frei verfügbar. Das bedeutet, dass jede_r das Recht hat, die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellt und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in den LICENSE und LICENSE-DE Dateien des Datensatzes.  
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Autors als Quelle, frei verfügbar. Das bedeutet, dass jede_r das Recht hat, die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht-kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in den LICENSE- und LICENSE-DE-Dateien des Datensatzes.  
 
 Die empfohlene Zitierweise ist:  
 
-an der Heiden, Matthias (2021): SARS-CoV-2 Nowcasting und R Schaetzung, Berlin: Zenodo. [DOI:muss.hier_eingetragen/werden](http://dx.doi.org/10.0000/0000)).
-
-
+an der Heiden, Matthias (2021): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. [DOI:muss.hier_eingetragen/werden](http://dx.doi.org/10.0000/0000)).
