@@ -26,9 +26,8 @@ Das Nowcasting erstellt eine Schätzung des Verlaufs der Anzahl von bereits erfo
 
 ### Administrative und organisatorische Angaben
 
-Der Datensatz "SARS-CoV-2-Nowcasting und -R-Schätzung" wird vom Robert Koch-Institut im Zusammenhang mit der SARS-CoV-2-Pandemie bereitgestellt. Autor des Datensatzes ist [Matthias an der Heiden](https://orcid.org/0000-0001-5863-4549), wissenschaftlicher Mitarbeiter des [Fachgebiet 34 | HIV/AIDS und andere sexuell oder durch Blut übertragbare Infektionen](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG34/FG34_node.html) des RKI. Inhaltliche Fragen bezüglich des Nowcastings und der R-Schätzungen können an Matthias an der Heiden per Mail, unter [AnderHeidenM@rki.de](mailto:AnderHeidenM@rki.de) gestellt werden. Das Nowcasting und die R-Schätzung erfolgt seit März 2020 und wird täglich aktualisiert.  
+Der Datensatz "SARS-CoV-2-Nowcasting und -R-Schätzung" wird vom Robert Koch-Institut im Zusammenhang mit der SARS-CoV-2-Pandemie bereitgestellt. Autor des Datensatzes ist [Matthias an der Heiden](https://orcid.org/0000-0001-5863-4549), wissenschaftlicher Mitarbeiter des [Fachgebiet 34 | HIV/AIDS und andere sexuell oder durch Blut übertragbare Infektionen](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG34/FG34_node.html) des RKI. Inhaltliche Fragen bezüglich des Nowcastings und der R-Schätzungen können an an das RKI unter [info@rki.de](mailto:info@rki.de) gestellt werden. Das Nowcasting und die R-Schätzung erfolgt seit März 2020 und wird täglich aktualisiert.  
 Die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch [Justus Benzler](https://orcid.org/0000-0002-7470-0849), [Fachgebiet 32 | Surveillance](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html) und [Hannes Wuensche](https://orcid.org/0000-0002-8837-0326), Fachgebiet [MF 4 | Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html) des RKI. Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Fachgebiet MF4 unter [MF4@rki.de](mailto:MF4@rki.de) gerichtet werden.
-
 
 
 ### Inhalt und Aufbau des Datensatzes
@@ -50,7 +49,7 @@ In Deutschland werden gemäß der Meldepflicht nach Infektionsschutzgesetz (IfSG
 
 ### Methoden, Instrumente und Verlauf der Datengenerierung
 
-Grundlage der Berechnungen des Nowcastings und der R-Schätzungen sind die aktuellen, durch die Gesundheitsämter an des Robert Koch-Institut gemeldeten, SARS-CoV-2-Infektionen in Deutschland. Die öffentlich zur Verfügung gestellten Daten der Infektionsmeldungen sind im [SARS-CoV-2 Daten-Dashboard des RKI](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/data) abrufbar. Auf Basis der gemeldeten SARS-CoV-2-Infektionen erfolgen die Fallzahlenschätzungen und die R-Wert-Berechnung in folgenden Schritten:   
+Grundlage der Berechnungen des Nowcastings und der R-Schätzungen sind die aktuellen, durch die Gesundheitsämter an des Robert Koch-Institut gemeldeten, SARS-CoV-2-Infektionen in Deutschland. Die öffentlich zur Verfügung gestellten Daten der Infektionsmeldungen sind im [SARS-CoV-2 Daten-Dashboard des RKI](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/data), auf  [GitHub](https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland) und in [Zenodo](https://doi.org/10.5281/zenodo.4681153) abrufbar. Auf Basis der gemeldeten SARS-CoV-2-Infektionen erfolgen die Fallzahlenschätzungen und die R-Wert-Berechnung in folgenden Schritten:   
 
 1. Multiple Imputation fehlender Information zum Erkrankungsbeginn von COVID-19-Fällen unter einer Missing-at-Random-Annahme 
 2. Korrektur der Anzahl von Neuerkrankungen für den Diagnose-, Melde- und Übermittlungsverzug mittels des Nowcasting-Verfahrens
@@ -61,6 +60,7 @@ Eine detaillierte Beschreibung der Methoden, Instrumente und des Verlaufs der Da
 >an der Heiden, M; Hamouda, O (2020): Schätzung der aktuellen Entwicklung der SARS-CoV-2-Epidemie in Deutschland – Nowcasting. Epid Bull, S.10–16. [DOI: 10.25646/6692.4](http://dx.doi.org/10.25646/6692.4)
 
 >Robert Koch-Institut (2020): Erläuterung der Schätzung der zeitlich variierenden Reproduktionszahl R. RKI. [DOI:10.25646/8164](https://doi.org/10.25646/8164)
+
 
 
 ### Daten und Datenaufbereitung
