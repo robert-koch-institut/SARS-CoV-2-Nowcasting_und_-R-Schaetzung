@@ -65,9 +65,10 @@ Eine detaillierte Beschreibung der Methoden, Instrumente und des Verlaufs der Da
 
 ### Daten und Datenaufbereitung
 
-Zentrales Datum des Datensatzes ist die Tabelle mit dem Nowcasting der aktuellen Infektionen und der sich daraus ergebenden R-Werte. Die Tabelle erhält den Dateinamen "Nowcast_R_JJJJ-MM-TT". Im Dateinamen repräsentiert die Sequenz "JJJJ-MM-TT" das Erstellungsdatum der Datei und damit gleichzeitig das Datum des enthaltenen Datenstands. "JJJJ" steht dabei für das Jahr, "MM" für den Monat und "TT" für den Tag der Erstellung bzw. des enthaltenen Datenstands.   
+Zentrales Datum des Datensatzes ist die Tabelle mit dem Nowcasting der aktuellen Infektionen und der sich daraus ergebenden R-Werte. Diese sind im Hauptverzeichnis unter "Nowcast_R_aktuell.csv" abrufbar und werden täglich überschrieben. Im Archivordner sind das Nowcasting und die R-Schaetzung unter den Dateinamen "Nowcast_R_JJJJ-MM-TT.csv" enthalten. Im Dateinamen repräsentiert die Sequenz "JJJJ-MM-TT" das Erstellungsdatum der Datei und damit gleichzeitig das Datum des enthaltenen Datenstands. "JJJJ" steht dabei für das Jahr, "MM" für den Monat und "TT" für den Tag der Erstellung bzw. des enthaltenen Datenstands.   
 
->Nowcast_R_JJJJ-MM-TT.csv
+>Nowcast_R_aktuell.csv  
+>Nowcast_R_JJJJ-MM-TT.csv  
 
 Die Tabelle des Nowcastings und der R-Schätzung wird jeden Tag um die Zeile der Daten des vergangenen Tages erweitert. Die Fallzahlenschätzungen und R-Wert-Angaben bilden einen tagesaktuellen Stand (00:00 Uhr) ab.  
 Die Schätzwerte zur Anzahl von Neuerkrankungen und der R-Schätzung zu früheren Tagen können von den Angaben in früheren Versionen der Tabelle abweichen, weil täglich der Gesamtverlauf, aufgrund der aktuell verfügbaren Daten, neu geschätzt wird.
