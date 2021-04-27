@@ -29,32 +29,32 @@
 		"type": "DataCurator"
 	}],
 	"keywords": [
-		"Forecasting",
-		"Basic reproduction number",
-		"Basisreproduktionszahl",
-		"SARS-CoV-2",
-		"Germany",
-		"Deutschland",
 		"COVID-19",
-		"Infections",
+		"SARS-CoV-2",
 		"Infektion",
+		"Basis-Reproduktionszahl",
+		"Vorhersage",
+		"Deutschland",
+		"Infections",
+		"Forecasting",
+		"Basic Reproduction Number",
+		"Germany",
 		"RKI"
 	],
 		"subjects": [
 	{
+		"term": "Gesundheitsberichterstattung", 
+		"identifier": "info:ddc/22/de//614.42"
+	},
+	{
+		"term": "Epidemiologie", 
+		"identifier": "info:ddc/22/de//614.4"
+	},	{
 		"term": "Public health surveillance", 
 		"identifier": "info:ddc/22/eng//614.42"
 	},
 	{
 		"term": "Epidemiology", 
 		"identifier": "info:ddc/22/eng//614.4"
-	},
-		{
-		"term": "Epidemiologie", 
-		"identifier": "info:ddc/22/de//614.4"
-	},
-	{
-		"term": "Gesundheitsberichterstattung", 
-		"identifier": "info:ddc/22/de//614.42"
 	}]
 }
