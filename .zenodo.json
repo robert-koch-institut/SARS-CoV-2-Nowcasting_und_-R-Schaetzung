@@ -1,60 +1,66 @@
 {
-	"title": "SARS-CoV-2-Nowcasting und -R-Schaetzung", 
-	"description": "<p>Das Nowcasting erstellt eine Schätzung des Verlaufs der Anzahl von bereits erfolgten SARS-CoV-2-Erkrankungsfällen in Deutschland unter Berücksichtigung des Diagnose-, Melde- und Übermittlungsverzugs. Aufbauend auf dem Nowcasting kann eine Schätzung der zeitabhängigen Reproduktionszahl R durchgeführt werden. Die Reproduktionszahl beschreibt, wie viele Menschen eine infizierte Person im Mittel ansteckt. Sie kann nicht alleine als Maß für Wirksamkeit/Notwendigkeit von Maßnahmen herangezogen werden. Wichtig sind außerdem u.a. die absolute Zahl der täglichen Neuinfektionen sowie die Schwere der Erkrankungen. Die absolute Zahl der Neuinfektionen muss klein genug sein, um eine effektive Kontaktpersonennachverfolgung zu ermöglichen und die Kapazitäten von Intensivbetten nicht zu überlasten.</p>", 
-	"upload_type": "dataset",
-	"access_right": "open",
-	"license": "cc-by", 
-	"language": "deu",
-	"communities": [
-	{
-		"identifier":"robertkochinstitut"
-	}],
-	"creators": [
-	{
-		"name": "an der Heiden, Matthias",
-		"affiliation": "Robert Koch-Institut",
-		"orcid": "0000-0001-5863-4549"
-	}],
-	"contributors": [
-	{
-		"name": "Wuensche, Hannes",
-		"affiliation": "Robert Koch-Institut",
-		"orcid": "0000-0002-8837-0326",
-		"type": "DataCurator"
-	},
-	{
-		"name": "Benzler, Justus",
-		"affiliation": "Robert Koch-Institut",
-		"orcid": "0000-0002-7470-0849",
-		"type": "DataCurator"
-	}],
-	"keywords": [
-		"COVID-19",
-		"SARS-CoV-2",
-		"Infektion",
-		"Basis-Reproduktionszahl",
-		"Vorhersage",
-		"Deutschland",
-		"Infections",
-		"Forecasting",
-		"Basic Reproduction Number",
-		"Germany",
-		"RKI"
-	],
-		"subjects": [
-	{
-		"term": "Gesundheitsberichterstattung", 
-		"identifier": "info:ddc/22/de//614.42"
-	},
-	{
-		"term": "Epidemiologie", 
-		"identifier": "info:ddc/22/de//614.4"
-	},	{
-		"term": "Public health surveillance", 
-		"identifier": "info:ddc/22/eng//614.42"
-	},
-	{
-		"term": "Epidemiology", 
-		"identifier": "info:ddc/22/eng//614.4"
-	}]
+  "title": "SARS-CoV-2-Nowcasting und -R-Schaetzung",
+  "description": "<p>Das Nowcasting erstellt eine Schätzung des Verlaufs der Anzahl von bereits erfolgten SARS-CoV-2-Erkrankungsfällen in Deutschland unter Berücksichtigung des Diagnose-, Melde- und Übermittlungsverzugs. Aufbauend auf dem Nowcasting kann eine Schätzung der zeitabhängigen Reproduktionszahl R durchgeführt werden. Die Reproduktionszahl beschreibt, wie viele Menschen eine infizierte Person im Mittel ansteckt. Sie kann nicht alleine als Maß für Wirksamkeit/Notwendigkeit von Maßnahmen herangezogen werden. Wichtig sind außerdem u.a. die absolute Zahl der täglichen Neuinfektionen sowie die Schwere der Erkrankungen. Die absolute Zahl der Neuinfektionen muss klein genug sein, um eine effektive Kontaktpersonennachverfolgung zu ermöglichen und die Kapazitäten von Intensivbetten nicht zu überlasten.</p>",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by",
+  "language": "deu",
+  "communities": [
+    {
+      "identifier": "robertkochinstitut"
+    }
+  ],
+  "creators": [
+    {
+      "name": "an der Heiden, Matthias",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0001-5863-4549"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wuensche, Hannes",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0002-8837-0326",
+      "type": "DataCurator"
+    },
+    {
+      "name": "Benzler, Justus",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0002-7470-0849",
+      "type": "DataCurator"
+    }
+  ],
+  "keywords": [
+    "COVID-19",
+    "SARS-CoV-2",
+    "Infektion",
+    "Basis-Reproduktionszahl",
+    "Vorhersage",
+    "Deutschland",
+    "Infections",
+    "Forecasting",
+    "Basic Reproduction Number",
+    "Germany",
+    "RKI"
+  ],
+  "subjects": [
+    {
+      "term": "Gesundheitsberichterstattung",
+      "identifier": "info:ddc/22/de//614.42"
+    },
+    {
+      "term": "Epidemiologie",
+      "identifier": "info:ddc/22/de//614.4"
+    },
+    {
+      "term": "Public health surveillance",
+      "identifier": "info:ddc/22/eng//614.42"
+    },
+    {
+      "term": "Epidemiology",
+      "identifier": "info:ddc/22/eng//614.4"
+    }
+  ],
+  "publication_date": "2021-07-14T03:10:31+02:00"
 }
