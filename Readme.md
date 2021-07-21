@@ -83,14 +83,13 @@ Das Nowcasting und die R-Schätzung sind im Datensatz als kommaseparierte .csv-D
 
 #### Variablen des Nowcastings und der R-Schätzung 
 
-Vier zentrale Variablen sind im Nowcasting und in der R-Schätzung für jeden Tag JJJJ-MM-TT abgebildet:
+Drei zentrale Variablen sind im Nowcasting und in der R-Schätzung für jeden Tag JJJJ-MM-TT abgebildet:
 
 - Punktschätzer der Anzahl an Neuerkrankungen (ohne Glättung)
     - ohne Glättung: ohne Bildung eines gleitenden Mittelwerts
 - Punktschätzer der Anzahl an Neuerkrankungen (mit Glättung)
     - mit Glättung: unter Bildung eines gleitenden Mittelwerts über 4 Tage
     - jeder Wert mit den Werten der 3 vorhergehenden Tage gemittelt
-- Punktschätzer des 4-Tage-R-Werts
 - Punktschätzer des 7-Tage-R-Werts
 
 Zu jeder dieser Variablen ist darüber hinaus das 95%-Prädiktionsintervall mit einer Ober- und einer Untergrenze angegeben. In der folgenden Tabelle sind die sich daraus ergebenden Variablen und deren Ausprägungen angegeben:
@@ -105,9 +104,6 @@ Zu jeder dieser Variablen ist darüber hinaus das 95%-Prädiktionsintervall mit 
 |PS_COVID_Faelle_ma4| Natürliche Zahl | Punktschätzer der Anzahl an Neuerkrankungen (mit Glättung)|
 |UG_PI_COVID_Faelle_ma4|Natürliche Zahl |Untere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (mit Glättung) |
 |OG_PI_COVID_Faelle_ma4| Natürliche Zahl | Obere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (mit Glättung) |
-|PS_4_Tage_R_Wert|Rationale Zahl |Punktschätzer des 4-Tage-R-Werts |
-|UG_PI_4_Tage_R_Wert| Rationale Zahl| Untere Grenze des 95%-Prädiktionsintervalls des 4-Tage-R-Werts|
-|OG_PI_4_Tage_R_Wert|Rationale Zahl | Obere Grenze des 95%-Prädiktionsintervalls des 4-Tage-R-Werts|
 |PS_7_Tage_R_Wert| Rationale Zahl| Punktschätzer des 7-Tage-R-Werts|
 |UG_PI_7_Tage_R_Wert| Rationale Zahl | Untere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R-Werts |
 |OG_PI_7_Tage_R_Wert| Rationale Zahl | Obere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R-Werts |
