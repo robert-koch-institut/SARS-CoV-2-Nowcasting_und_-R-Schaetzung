@@ -1,6 +1,6 @@
 {
   "title": "SARS-CoV-2-Nowcasting und -R-Schaetzung",
-  "description": "<p>Das Nowcasting erstellt eine Schätzung des Verlaufs der Anzahl von bereits erfolgten SARS-CoV-2-Erkrankungsfällen in Deutschland unter Berücksichtigung des Diagnose-, Melde- und Übermittlungsverzugs. Aufbauend auf dem Nowcasting kann eine Schätzung der zeitabhängigen Reproduktionszahl R durchgeführt werden. Die Reproduktionszahl beschreibt, wie viele Menschen eine infizierte Person im Mittel ansteckt. Sie kann nicht alleine als Maß für Wirksamkeit/Notwendigkeit von Maßnahmen herangezogen werden. Wichtig sind außerdem u.a. die absolute Zahl der täglichen Neuinfektionen sowie die Schwere der Erkrankungen. Die absolute Zahl der Neuinfektionen muss klein genug sein, um eine effektive Kontaktpersonennachverfolgung zu ermöglichen und die Kapazitäten von Intensivbetten nicht zu überlasten.</p>",
+  "description": "Das Nowcasting erstellt eine Schätzung des Verlaufs der Anzahl von bereits erfolgten SARS-CoV-2-Erkrankungsfällen in Deutschland unter Berücksichtigung des Diagnose-, Melde- und Übermittlungsverzugs. Aufbauend auf dem Nowcasting kann eine Schätzung der zeitabhängigen Reproduktionszahl R durchgeführt werden. Die Reproduktionszahl beschreibt, wie viele Menschen eine infizierte Person im Mittel ansteckt. Sie kann nicht alleine als Maß für Wirksamkeit/Notwendigkeit von Maßnahmen herangezogen werden. Wichtig sind außerdem u.a. die absolute Zahl der täglichen Neuinfektionen sowie die Schwere der Erkrankungen. Die absolute Zahl der Neuinfektionen muss klein genug sein, um eine effektive Kontaktpersonennachverfolgung zu ermöglichen und die Kapazitäten von Intensivbetten nicht zu überlasten.",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "cc-by",
@@ -62,5 +62,5 @@
       "identifier": "info:ddc/22/eng//614.4"
     }
   ],
-  "publication_date": "2021-12-02T02:21:15+01:00"
+  "publication_date": "2021-12-03T02:37:09+01:00"
 }
