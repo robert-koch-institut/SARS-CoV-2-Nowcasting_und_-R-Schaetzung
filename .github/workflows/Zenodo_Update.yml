@@ -28,23 +28,30 @@ jobs:
          zenodo_server: ${{ env.zenodo_server }}
          zenodo_token: ${{ secrets.ZENODO_TOKEN }}
 
-      # Build Readme.pdf
-      - uses: baileyjm02/markdown-to-pdf@v1
+      # Build Documentation pdf's
+      - name: CreateWorkingDir
+        run: mkdir md2pdf & cp Readme*.md md2pdf/ 
+        
+      # Build pdfs  
+      - uses: baileyjm02/markdown-to-pdf@v1.2.0
         with:
-          input_dir: .
-          output_dir: .
+          input_dir: md2pdf/
+          output_dir: md2pdf/
           image_import: /.github/pictures   #Uncomment if u use imgges in your Readme.md
           images_dir: /.github/pictures     #Uncomment if u use imgges in your Readme.md
           build_html: false
-
+      
       # Renames Readme.pdf to 'Dokumentation <reponame>.pdf'
       - name: Rename Readme.pdf
-        run: mv Readme.pdf "[Dokumentation]_$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}' ).pdf"
+        run: mv md2pdf/Readme.pdf "[Dokumentation]_$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}' ).pdf"
       - name: Rename Readme_en.pdf
         run: |
-          if [ -f Readme_en.pdf ]; then
-             mv Readme_en.pdf "[Documentation]_$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}' ).pdf"
-          fi        
+          if [ -f md2pdf/Readme_en.pdf ]; then
+             mv md2pdf/Readme_en.pdf "[Documentation]_$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}' ).pdf"
+          fi  
+      
+      - name: DeleteWorkingDir
+        run: rm -rf md2pdf 
 
       - uses: kykrueger/zenodo-publish@v1.0.3
         with:
