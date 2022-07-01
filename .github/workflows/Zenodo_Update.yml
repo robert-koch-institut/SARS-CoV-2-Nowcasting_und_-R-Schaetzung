@@ -4,10 +4,10 @@ on:
   push:
     branches: [ main ]
     paths:
-      - '**.txt'
-      - '**.md'
+      #- '**.txt'
+      #- '**.md'
       - '**.csv'
-      - '.github/pictures/**'
+      #- '.github/pictures/**'
   workflow_dispatch:
 env:
   zenodo_deposition_id: 6644127
