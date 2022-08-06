@@ -16,7 +16,7 @@ MF 4 | Forschungsdatenmanagement
 [Hannes Wuensche](https://orcid.org/0000-0002-8837-0326) (Datenkuration)  
 
 ---
-an der Heiden, Matthias (2022): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:[10.5281/zenodo.6965681](https://doi.org/10.5281/zenodo.6965681).  
+an der Heiden, Matthias (2022): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:[10.5281/zenodo.6968806](https://doi.org/10.5281/zenodo.6968806).  
 
 Der Datensatz "SARS-CoV-2-Nowcasting und -R-Schaetzung" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)  
 
@@ -131,4 +131,4 @@ Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung 
 
 Die empfohlene Zitierweise ist:  
 
-an der Heiden, Matthias (2022): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:[10.5281/zenodo.6965681](https://doi.org/10.5281/zenodo.6965681).
+an der Heiden, Matthias (2022): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:[10.5281/zenodo.6968806](https://doi.org/10.5281/zenodo.6968806).
