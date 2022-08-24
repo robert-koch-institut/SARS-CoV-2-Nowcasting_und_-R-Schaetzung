@@ -1,0 +1,74 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ckan.govdata.de/dataset/64233db9-56cf-44ff-a6b2-cba441b02bd2> a dcat:Dataset ;
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
+    dcatde:maintainer [ a foaf:Organization ;
+            foaf:homepage <https://rki.de> ;
+            foaf:mbox "info@rki.de" ;
+            foaf:name "Robert Koch-Institut" ] ;
+    dcatde:politicalGeocodingLevelURI <http://dcat-ap.de/def/politicalGeocoding/Level/federal> ;
+    dct:creator [ a foaf:Organization ;
+            foaf:mbox "info@rki.de" ;
+            foaf:name "Matthias an der Heiden" ] ;
+    dct:description """<p>Das Nowcasting erstellt eine Schätzung des Verlaufs der Anzahl von bereits erfolgten SARS-CoV-2-Erkrankungsfällen in Deutschland unter Berücksichtigung des Diagnose-, Melde- und Übermittlungsverzugs. Aufbauend auf dem Nowcasting kann eine Schätzung der zeitabhängigen Reproduktionszahl R durchgeführt werden. Die Reproduktionszahl beschreibt, wie viele Menschen eine infizierte Person im Mittel ansteckt. Sie kann nicht alleine als Maß für Wirksamkeit/Notwendigkeit von Maßnahmen herangezogen werden. Wichtig sind außerdem u.a. die absolute Zahl der täglichen Neuinfektionen sowie die Schwere der Erkrankungen. Die absolute Zahl der Neuinfektionen muss klein genug sein, um eine effektive Kontaktpersonennachverfolgung zu ermöglichen und die Kapazitäten von Intensivbetten nicht zu überlasten.</p>\r
+<p> Der Datensatz ist versioniert und wissenschaftlich zitierbar im europäischen Forschungsdatenrepositorium <a href='https://zenodo.org/communities/robertkochinstitut/?page=1&size=50'>Zenodo.org</a> und auf <a href='https://github.com/robert-koch-institut'>GitHub.com</a>  bereitgestellt:</p><ul><li><a href='https://doi.org/10.5281/zenodo.4680400'>https://doi.org/10.5281/zenodo.4680400</a></li><li><a href='https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung'>https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung</a></li></ul>""" ;
+    dct:identifier "64233db9-56cf-44ff-a6b2-cba441b02bd2" ;
+    dct:issued "2021-03-16T00:00:00"^^xsd:dateTime ;
+    dct:modified "2021-08-17T06:25:52.297016"^^xsd:dateTime ;
+    dct:publisher [ a foaf:Organization ;
+            foaf:mbox "opendata@rki.de" ;
+            foaf:name "Robert Koch-Institut | MF 4 - Forschungsdatenmanagement" ] ;
+    dct:spatial [ a dct:Location ] ;
+    dct:temporal [ a dct:PeriodOfTime ;
+            schema:startDate "2020-03-02T00:00:00"^^xsd:dateTime ],
+        [ a dct:PeriodOfTime ;
+            dcat:startDate "2020-03-02T00:00:00"^^xsd:dateTime ] ;
+    dct:title "SARS-CoV-2-Nowcasting und -R-Schaetzung" ;
+    dcat:contactPoint [ a vcard:Organization ;
+            vcard:fn "Robert Koch-Institut" ;
+            vcard:hasCountryName "Deutschland" ;
+            vcard:hasEmail <mailto:info@rki.de> ;
+            vcard:hasLocality "Berlin" ;
+            vcard:hasPostalCode "13353" ;
+            vcard:hasStreetAddress "Nordufer 20" ;
+            vcard:hasURL <https://rki.de> ] ;
+    dcat:distribution <https://ckan.govdata.de/dataset/64233db9-56cf-44ff-a6b2-cba441b02bd2/resource/0c65710a-35dd-4c3e-a6cb-40a467c0e1db>,
+        <https://ckan.govdata.de/dataset/64233db9-56cf-44ff-a6b2-cba441b02bd2/resource/f71087c6-21c8-40ff-b6c1-1579bb8a0ddc> ;
+    dcat:keyword "Basis-Reproduktionszahl",
+        "COVID-19",
+        "Coronavirus",
+        "Deutschland",
+        "Infektion",
+        "RKI",
+        "SARS-CoV-2",
+        "Vorhersage" ;
+    dcat:landingPage <https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung#readme> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+        <http://publications.europa.eu/resource/authority/data-theme/SOCI> .
+
+<https://ckan.govdata.de/dataset/64233db9-56cf-44ff-a6b2-cba441b02bd2/resource/0c65710a-35dd-4c3e-a6cb-40a467c0e1db> a dcat:Distribution ;
+    dcatde:licenseAttributionByText "an der Heiden, Matthias (2021): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:10.5281/zenodo.7014051." ;
+    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+    dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'SARS-CoV-2-Nowcasting und -R-Schaetzung' bereitgestellten Daten." ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
+    dct:language <https://publications.europa.eu/resource/authority/language/DEU> ;
+    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dct:title "[Dokumentation] SARS-CoV-2-Nowcasting und -R-Schaetzung.pdf" ;
+    dcat:accessURL <https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/%5BDokumentation%5D%20SARS-CoV-2-Nowcasting%20und%20-R-Schaetzung.pdf> .
+
+<https://ckan.govdata.de/dataset/64233db9-56cf-44ff-a6b2-cba441b02bd2/resource/f71087c6-21c8-40ff-b6c1-1579bb8a0ddc> a dcat:Distribution ;
+    dcatde:licenseAttributionByText "an der Heiden, Matthias (2021): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:10.5281/zenodo.7014051." ;
+    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+    dct:description "Die Daten enthalten die epidemiologischen Schätzungen über den Verlauf der SARS-CoV-2-Infektionen in Deutschland, das Nowcasting, und der daraus resultierenden Reproduktionszahl, dem R-Wert. Grundlage der Berechnungen des Nowcastings und der R-Schätzungen sind die aktuellen, durch die Gesundheitsämter an des Robert Koch-Institut gemeldeten, SARS-CoV-2-Infektionen in Deutschland. Die Daten werden täglich aktualisiert und um den neusten Eintrag ergänzt. Weitere Informationen, insbesondere zu den enthaltenen Variablen, lassen sich der Datensatzdokumentation entnehmen." ;
+    dct:format <https://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dct:language <https://publications.europa.eu/resource/authority/language/DEU> ;
+    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dct:title "Nowcast_R_aktuell.csv" ;
+    dcat:accessURL <https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/Nowcast_R_aktuell.csv> .
+
