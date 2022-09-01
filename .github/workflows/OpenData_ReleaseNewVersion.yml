@@ -79,7 +79,7 @@ jobs:
              fi  
         
       - name: Publish Data and Metadata on Zenodo
-        uses: kykrueger/zenodo-publish@v1.0.4
+        uses: kykrueger/zenodo-publish@v1.0.5
         with:
           zenodo_metadata: Metadaten/zenodo.json
           whitelist_uploads: .github/workflows/.zenodo_whitelist_uploads
