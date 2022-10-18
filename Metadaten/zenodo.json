@@ -62,6 +62,20 @@
       "identifier": "info:ddc/22/eng//614.4"
     }
   ],
-  "publication_date": "2022-10-17T04:17:07+02:00",
-  "version": "2022-10-17"
+  "publication_date": "2022-10-18T04:22:19+02:00",
+  "version": "2022-10-18",
+  "dates": [
+    {
+      "start": "2020-03-02",
+      "end": "2022-10-18",
+      "type": "Collected"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung",
+      "resource_type": "dataset"
+    }
+  ]
 }
