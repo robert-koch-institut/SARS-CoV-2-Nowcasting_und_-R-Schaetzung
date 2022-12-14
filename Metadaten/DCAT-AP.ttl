@@ -53,7 +53,7 @@
         <http://publications.europa.eu/resource/authority/data-theme/SOCI> .
 
 <https://ckan.govdata.de/dataset/64233db9-56cf-44ff-a6b2-cba441b02bd2/resource/0c65710a-35dd-4c3e-a6cb-40a467c0e1db> a dcat:Distribution ;
-    dcatde:licenseAttributionByText "an der Heiden, Matthias (2021): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:10.5281/zenodo.7426048." ;
+    dcatde:licenseAttributionByText "an der Heiden, Matthias (2021): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:10.5281/zenodo.7435436." ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'SARS-CoV-2-Nowcasting und -R-Schaetzung' bereitgestellten Daten." ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
@@ -63,7 +63,7 @@
     dcat:accessURL <https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/%5BDokumentation%5D%20SARS-CoV-2-Nowcasting%20und%20-R-Schaetzung.pdf> .
 
 <https://ckan.govdata.de/dataset/64233db9-56cf-44ff-a6b2-cba441b02bd2/resource/f71087c6-21c8-40ff-b6c1-1579bb8a0ddc> a dcat:Distribution ;
-    dcatde:licenseAttributionByText "an der Heiden, Matthias (2021): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:10.5281/zenodo.7426048." ;
+    dcatde:licenseAttributionByText "an der Heiden, Matthias (2021): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:10.5281/zenodo.7435436." ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Die Daten enthalten die epidemiologischen Schätzungen über den Verlauf der SARS-CoV-2-Infektionen in Deutschland, das Nowcasting, und der daraus resultierenden Reproduktionszahl, dem R-Wert. Grundlage der Berechnungen des Nowcastings und der R-Schätzungen sind die aktuellen, durch die Gesundheitsämter an des Robert Koch-Institut gemeldeten, SARS-CoV-2-Infektionen in Deutschland. Die Daten werden täglich aktualisiert und um den neusten Eintrag ergänzt. Weitere Informationen, insbesondere zu den enthaltenen Variablen, lassen sich der Datensatzdokumentation entnehmen." ;
     dct:format <https://publications.europa.eu/resource/authority/file-type/CSV> ;
