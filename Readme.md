@@ -1,7 +1,7 @@
 Datensatzdokumentation  
 # SARS-CoV-2-Nowcasting und -R-Schätzung
 
-[Robert Koch-Institut](https://grid.ac/institutes/grid.13652.33) | RKI  
+[Robert Koch-Institut](https://rki.de) | RKI  
 Nordufer 20  
 13353 Berlin  
 
@@ -9,25 +9,25 @@ Nordufer 20
 FG 34 | HIV/AIDS und andere sexuell oder durch Blut übertragbare Infektionen  
 
 Beitragende:  
-FG 32 | Surveillance  
+FG 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle  
 [Justus Benzler](https://orcid.org/0000-0002-7470-0849) (Datenkuration)  
   
-MF 4 | Forschungsdatenmanagement  
+MF 4 | Fach- und Forschungsdatenmanagement  
 [Hannes Wuensche](https://orcid.org/0000-0002-8837-0326) (Datenkuration)  
 
 ---
-an der Heiden, Matthias (2023): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:[10.5281/zenodo.7916799](https://doi.org/10.5281/zenodo.7916799).  
+**Zitieren**  
 
-Der Datensatz "SARS-CoV-2-Nowcasting und -R-Schaetzung" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)  
+an der Heiden, Matthias (2023): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:[10.5281/zenodo.7920671](https://doi.org/10.5281/zenodo.7920671).  
 
 ## Informationen zur Studie und zum Forschungskontext
 
-Das Nowcasting erstellt eine Schätzung des Verlaufs der Anzahl von bereits erfolgten SARS-CoV-2-Erkrankungsfällen in Deutschland unter Berücksichtigung des Diagnose-, Melde- und Übermittlungsverzugs. Aufbauend auf dem Nowcasting kann eine Schätzung der zeitabhängigen Reproduktionszahl R (oder R-Wert) durchgeführt werden. Die Reproduktionszahl beschreibt, wie viele Menschen eine infizierte Person im Mittel ansteckt. Sie kann nicht alleine als Maß für die Notwendigkeit und Wirksamkeit von Maßnahmen herangezogen werden. Wichtig sind außerdem u.a. die absolute Zahl der täglichen Neuinfektionen sowie die Schwere der Erkrankungen. Die absolute Zahl der Neuinfektionen muss klein genug sein, um eine effektive Kontaktpersonennachverfolgung zu ermöglichen, und die Zahl der schweren Erkrankungen klein genug, um die Kapazitäten an Intensivbetten nicht zu überlasten.
+Das SARS-CoV-2-Nowcasting erstellt eine Schätzung des Verlaufs der Anzahl von bereits erfolgten SARS-CoV-2-Erkrankungsfällen in Deutschland unter Berücksichtigung des Diagnose-, Melde- und Übermittlungsverzugs. Aufbauend auf dem Nowcasting kann eine Schätzung der zeitabhängigen Reproduktionszahl R (oder R-Wert) durchgeführt werden. Die Reproduktionszahl beschreibt, wie viele Menschen eine infizierte Person im Mittel ansteckt. Sie kann nicht alleine als Maß für die Notwendigkeit und Wirksamkeit von Maßnahmen herangezogen werden. Wichtig sind außerdem u.a. die absolute Zahl der täglichen Neuinfektionen sowie die Schwere der Erkrankungen. Die absolute Zahl der Neuinfektionen muss klein genug sein, um eine effektive Kontaktpersonennachverfolgung zu ermöglichen, und die Zahl der schweren Erkrankungen klein genug, um die Kapazitäten an Intensivbetten nicht zu überlasten.
 
 ### Administrative und organisatorische Angaben
 
 Der Datensatz "SARS-CoV-2-Nowcasting und -R-Schätzung" wird vom Robert Koch-Institut im Zusammenhang mit der SARS-CoV-2-Pandemie bereitgestellt. Autor des Datensatzes ist [Matthias an der Heiden](https://orcid.org/0000-0001-5863-4549), wissenschaftlicher Mitarbeiter des [Fachgebiet 34 | HIV/AIDS und andere sexuell oder durch Blut übertragbare Infektionen](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG34/FG34_node.html) des RKI. Inhaltliche Fragen bezüglich des Nowcastings und der R-Schätzungen können an an das RKI unter [info@rki.de](mailto:info@rki.de) gestellt werden. Das Nowcasting und die R-Schätzung erfolgt seit März 2020 und wird täglich aktualisiert.  
-Die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch [Justus Benzler](https://orcid.org/0000-0002-7470-0849), [Fachgebiet 32 | Surveillance](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html) und [Hannes Wuensche](https://orcid.org/0000-0002-8837-0326), Fachgebiet [MF 4 | Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html) des RKI. Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.
+Die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch [Justus Benzler](https://orcid.org/0000-0002-7470-0849), [Fachgebiet 32 | FG 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html) und [Hannes Wuensche](https://orcid.org/0000-0002-8837-0326), Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html) des RKI. Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.
 
 
 ### Inhalt und Aufbau des Datensatzes

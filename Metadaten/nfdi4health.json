@@ -1,0 +1,191 @@
+{
+  "data": {
+    "type": "studyhub_resources",
+    "attributes": {
+      "commit_button": "Submit",
+      "content_blobs": [
+        {
+          "content_type": "text/html",
+          "url": "https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung",
+          "original_filename": "Github Link"
+        }
+      ],
+      "resource": {
+        "resource_type": "Dataset",
+        "resource_type_general": "Dataset",
+        "resource_titles": [
+          {
+            "title": "SARS-CoV-2-Nowcasting und -R-Schaetzung",
+            "title_language": "DE (German)"
+          }
+        ],
+        "resource_acronyms": [],
+        "resource_descriptions": [
+          {
+            "description": "Das Nowcasting erstellt eine Schätzung des Verlaufs der Anzahl von bereits erfolgten SARS-CoV-2-Erkrankungsfällen in Deutschland unter Berücksichtigung des Diagnose-, Melde- und Übermittlungsverzugs. Aufbauend auf dem Nowcasting kann eine Schätzung der zeitabhängigen Reproduktionszahl R durchgeführt werden. Die Reproduktionszahl beschreibt, wie viele Menschen eine infizierte Person im Mittel ansteckt. Sie kann nicht alleine als Maß für Wirksamkeit/Notwendigkeit von Maßnahmen herangezogen werden. Wichtig sind außerdem u.a. die absolute Zahl der täglichen Neuinfektionen sowie die Schwere der Erkrankungen. Die absolute Zahl der Neuinfektionen muss klein genug sein, um eine effektive Kontaktpersonennachverfolgung zu ermöglichen und die Kapazitäten von Intensivbetten nicht zu überlasten.",
+            "description_language": "DE (German)"
+          }
+        ],
+        "resource_format": "",
+        "resource_keywords": [
+          {
+            "resource_keywords_label": "COVID-19",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "SARS-CoV-2",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Infektion",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Basis-Reproduktionszahl",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Vorhersage",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Deutschland",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Infections",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Forecasting",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Basic Reproduction Number",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Germany",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "RKI",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Gesundheitsberichterstattung",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Epidemiologie",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Public health surveillance",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Epidemiology",
+            "resource_keywords_label_code": ""
+          }
+        ],
+        "resource_language": [
+          "DE (German)"
+        ],
+        "resource_version": "2023-05-10",
+        "resource_web_page": "https://robert-koch-institut.github.io/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/",
+        "resource_use_rights_label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)",
+        "resource_use_rights_description": "",
+        "resource_use_rights_authors_confirmation_1": true,
+        "resource_use_rights_authors_confirmation_2": true,
+        "resource_use_rights_authors_confirmation_3": true,
+        "resource_use_rights_support_by_licencing": true,
+        "provenance": {
+          "data_source": ""
+        },
+        "roles": [
+          {
+            "role_type": "Data curator",
+            "role_email": "",
+            "role_phone": "",
+            "role_affiliation_address": "",
+            "role_affiliation_web_page": "",
+            "role_affiliation_identifiers": [],
+            "role_name_type": "Personal",
+            "role_name_personal_title": "Other",
+            "role_name_personal_given_name": "Hannes",
+            "role_name_personal_family_name": "Wuensche",
+            "role_name_identifiers": [
+              {
+                "role_name_identifier": "0000-0002-8837-0326",
+                "role_name_identifier_scheme": "ORCID"
+              }
+            ]
+          },
+          {
+            "role_type": "Data curator",
+            "role_email": "",
+            "role_phone": "",
+            "role_affiliation_address": "",
+            "role_affiliation_web_page": "",
+            "role_affiliation_identifiers": [],
+            "role_name_type": "Personal",
+            "role_name_personal_title": "Other",
+            "role_name_personal_given_name": "Justus",
+            "role_name_personal_family_name": "Benzler",
+            "role_name_identifiers": [
+              {
+                "role_name_identifier": "0000-0002-7470-0849",
+                "role_name_identifier_scheme": "ORCID"
+              }
+            ]
+          },
+          {
+            "role_type": "Creator/Author",
+            "role_email": "",
+            "role_phone": "",
+            "role_affiliation_address": "",
+            "role_affiliation_web_page": "",
+            "role_affiliation_identifiers": [],
+            "role_name_type": "Personal",
+            "role_name_personal_title": "Other",
+            "role_name_personal_given_name": "Matthias",
+            "role_name_personal_family_name": "an der Heiden",
+            "role_name_identifiers": [
+              {
+                "role_name_identifier": "0000-0001-5863-4549",
+                "role_name_identifier_scheme": "ORCID"
+              }
+            ]
+          }
+        ],
+        "ids": [
+          {
+            "id_identifier": "https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung",
+            "id_date": "",
+            "id_type": "URL",
+            "id_relation_type": "describes",
+            "id_resource_type_general": "Dataset"
+          },
+          {
+            "id_identifier": "10.5281/zenodo.7920671",
+            "id_date": "",
+            "id_type": "DOI",
+            "id_relation_type": "has part",
+            "id_resource_type_general": "Dataset"
+          }
+        ]
+      }
+    },
+    "relationships": {
+      "projects": {
+        "data": [
+          {
+            "id": "1",
+            "type": "projects"
+          }
+        ]
+      }
+    }
+  }
+}
