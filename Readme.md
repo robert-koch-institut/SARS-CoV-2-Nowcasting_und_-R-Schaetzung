@@ -18,7 +18,7 @@ MF 4 | Fach- und Forschungsdatenmanagement
 ---
 **Zitieren**  
 
-an der Heiden, Matthias (2023): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:[10.5281/zenodo.7947138](https://doi.org/10.5281/zenodo.7947138).  
+an der Heiden, Matthias (2023): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:[10.5281/zenodo.7949551](https://doi.org/10.5281/zenodo.7949551).  
 
 ## Informationen zur Studie und zum Forschungskontext
 
