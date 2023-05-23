@@ -13,7 +13,7 @@ abstract: >-
   der Erkrankungen. Die absolute Zahl der Neuinfektionen muss klein genug sein,
   um eine effektive Kontaktpersonennachverfolgung zu ermöglichen und die
   Kapazitäten von Intensivbetten nicht zu überlasten.
-date-released: '2023-05-22'
+date-released: '2023-05-23'
 keywords:
   - COVID-19
   - SARS-CoV-2
@@ -34,7 +34,7 @@ message: Cite me!
 url: >-
   https://robert-koch-institut.github.io/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/
 license: CC-BY-4.0
-doi: 10.5281/zenodo.7955883
+doi: 10.5281/zenodo.7960579
 authors:
   - family-names: an der Heiden
     given-names: Matthias
