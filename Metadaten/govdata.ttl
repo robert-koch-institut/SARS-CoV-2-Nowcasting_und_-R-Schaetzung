@@ -11,8 +11,8 @@
                   dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
                   dcatde:contributor [ a foaf:Person; foaf:name "Matthias an der Heiden"; foaf:account <http://orcid.org/0000-0001-5863-4549>; ];
                   dct:description "Das Nowcasting erstellt eine Schätzung des Verlaufs der Anzahl von bereits erfolgten SARS-CoV-2-Erkrankungsfällen in Deutschland unter Berücksichtigung des Diagnose-, Melde- und Übermittlungsverzugs. Aufbauend auf dem Nowcasting kann eine Schätzung der zeitabhängigen Reproduktionszahl R durchgeführt werden. Die Reproduktionszahl beschreibt, wie viele Menschen eine infizierte Person im Mittel ansteckt. Sie kann nicht alleine als Maß für Wirksamkeit/Notwendigkeit von Maßnahmen herangezogen werden. Wichtig sind außerdem u.a. die absolute Zahl der täglichen Neuinfektionen sowie die Schwere der Erkrankungen. Die absolute Zahl der Neuinfektionen muss klein genug sein, um eine effektive Kontaktpersonennachverfolgung zu ermöglichen und die Kapazitäten von Intensivbetten nicht zu überlasten." ;
-                  dct:issued "2023-05-23T00:00:03+02:00"^^xsd:dateTime ;
-                  dct:modified "2023-05-23T00:00:03+02:00"^^xsd:dateTime ;
+                  dct:issued "2023-05-24T11:02:17+02:00"^^xsd:dateTime ;
+                  dct:modified "2023-05-24T11:02:17+02:00"^^xsd:dateTime ;
                   dct:publisher [ a foaf:Organization ;
                       foaf:mbox "opendata@rki.de" ;
                       foaf:name "Robert Koch Institut"
@@ -34,35 +34,35 @@
                   dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0>;
                   dcat:distribution [
                     a dcat:Distribution ;
-                    dcatde:licenseAttributionByText "an der Heiden, Matthias (2023): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:10.5281/zenodo.7960579" ;
+                    dcatde:licenseAttributionByText "an der Heiden, Matthias (2023): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:10.5281/zenodo.7965616" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte.";
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dct:title "Github - SARS-CoV-2-Nowcasting und -R-Schaetzung" ;
                     dcat:accessURL <https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung>;
-                    dct:modified "2023-05-23T00:00:03+02:00"^^xsd:dateTime;
+                    dct:modified "2023-05-24T11:02:17+02:00"^^xsd:dateTime;
                   ],
                   [
                     a dcat:Distribution ;
-                    dcatde:licenseAttributionByText "an der Heiden, Matthias (2023): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:10.5281/zenodo.7960579" ;
+                    dcatde:licenseAttributionByText "an der Heiden, Matthias (2023): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:10.5281/zenodo.7965616" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern.";
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dct:title "Zenodo - SARS-CoV-2-Nowcasting und -R-Schaetzung" ;
                     dcat:accessURL <https://zenodo.org/record/7916799>;
-                    dct:modified "2023-05-23T00:00:03+02:00"^^xsd:dateTime;
+                    dct:modified "2023-05-24T11:02:17+02:00"^^xsd:dateTime;
                   ],
                   [
                     a dcat:Distribution ;
                     dct:title "[Dokumentation] SARS-CoV-2-Nowcasting_und_-R-Schaetzung.pdf" ;
-                    dcatde:licenseAttributionByText "an der Heiden, Matthias (2023): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:10.5281/zenodo.7960579" ;
+                    dcatde:licenseAttributionByText "an der Heiden, Matthias (2023): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:10.5281/zenodo.7965616" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'SARS-CoV-2-Nowcasting und -R-Schaetzung' bereitgestellten Daten" ;
                     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dcat:accessURL <https://zenodo.org/record/7916799/files/%5BDokumentation%5D_SARS-CoV-2-Nowcasting_und_-R-Schaetzung.pdf>;
-                    dct:modified "2023-05-23T00:00:03+02:00"^^xsd:dateTime;
+                    dct:modified "2023-05-24T11:02:17+02:00"^^xsd:dateTime;
                   ].
