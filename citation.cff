@@ -34,7 +34,7 @@ message: Cite me!
 url: >-
   https://robert-koch-institut.github.io/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/
 license: CC-BY-4.0
-doi: 10.5281/zenodo.8055289
+doi: 10.5281/zenodo.8055458
 authors:
   - family-names: an der Heiden
     given-names: Matthias
