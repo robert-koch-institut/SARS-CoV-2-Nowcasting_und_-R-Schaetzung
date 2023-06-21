@@ -5,7 +5,7 @@ Datensatzdokumentation
 Nordufer 20  
 13353 Berlin  
 
-[Matthias an der Heiden](https://orcid.org/0000-0001-5863-4549)  
+[**Matthias an der Heiden**](https://orcid.org/0000-0001-5863-4549)  
 FG 34 | HIV/AIDS und andere sexuell oder durch Blut übertragbare Infektionen  
 
 Beitragende:  
@@ -22,7 +22,11 @@ an der Heiden, Matthias (2023): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin:
 
 ## Informationen zur Studie und zum Forschungskontext
 
-Das SARS-CoV-2-Nowcasting erstellt eine Schätzung des Verlaufs der Anzahl von bereits erfolgten SARS-CoV-2-Erkrankungsfällen in Deutschland unter Berücksichtigung des Diagnose-, Melde- und Übermittlungsverzugs. Aufbauend auf dem Nowcasting kann eine Schätzung der zeitabhängigen Reproduktionszahl R (oder R-Wert) durchgeführt werden. Die Reproduktionszahl beschreibt, wie viele Menschen eine infizierte Person im Mittel ansteckt. Sie kann nicht alleine als Maß für die Notwendigkeit und Wirksamkeit von Maßnahmen herangezogen werden. Wichtig sind außerdem u.a. die absolute Zahl der täglichen Neuinfektionen sowie die Schwere der Erkrankungen. Die absolute Zahl der Neuinfektionen muss klein genug sein, um eine effektive Kontaktpersonennachverfolgung zu ermöglichen, und die Zahl der schweren Erkrankungen klein genug, um die Kapazitäten an Intensivbetten nicht zu überlasten.
+### ⚠️Einstellung des Nowcastings zum 21.06.2023⚠️  
+
+Seit dem `21.06.2023` ist die tägliche Berechnung des Nowcasting und des R-Werts durch das RKI eingestellt. Es erfolgt keine weitere Aktualisierung der Daten.  
+
+Im [ARE-Wochenbericht](https://influenza.rki.de/Wochenberichte.aspx) des RKI wird weiterhin über die Zirkulation von SARS-CoV-2 im Rahmen der virologischen Surveillance sowie über die Krankheitslast von akuten Atemwegserkrankungen in der Bevölkerung, im ambulanten sowie im stationären Bereich im Rahmen der syndromischen Surveillance berichtet werden. (Siehe: [ARE-Wochenbericht, Pandemieradar, frühere COVID-19-Wochenberichte](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html?nn=13490888))
 
 ### Administrative und organisatorische Angaben
 
@@ -70,16 +74,8 @@ Zentrales Datum des Datensatzes ist die Tabelle mit dem Nowcasting der aktuellen
 >Nowcast_R_aktuell.csv  
 >Archiv/Nowcast_R_JJJJ-MM-TT.csv  
 
-Die Tabelle des Nowcastings und der R-Schätzung wird jeden Tag um die Zeile der Daten des vergangenen Tages erweitert. Die Fallzahlenschätzungen und R-Wert-Angaben bilden einen tagesaktuellen Stand (00:00 Uhr) ab.  
+Die Tabelle des Nowcastings und der R-Schätzung wurden täglich um die Zeile der Daten des vergangenen Tages erweitert. Die Fallzahlenschätzungen und R-Wert-Angaben bilden einen tagesaktuellen Stand (00:00 Uhr) des Publikationsdatums ab.  
 Die Schätzwerte zur Anzahl von Neuerkrankungen und der R-Schätzung zu früheren Tagen können von den Angaben in früheren Versionen der Tabelle abweichen, weil täglich der Gesamtverlauf, aufgrund der aktuell verfügbaren Daten, neu geschätzt wird.
-
-#### Formatierung der Nowcasting-und-R-Schätzung-Tabelle 
-
-Das Nowcasting und die R-Schätzung sind im Datensatz als kommaseparierte .csv-Datei enthalten. Der verwendete Zeichensatz der .csv-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",". Datumsangaben sind im ISO-8601-Standard formatiert.
-
-* Zeichensatz: UTF-8  
-* Datumsformat: ISO 8601  
-* .csv-Trennzeichen: Komma ","  
 
 #### Variablen des Nowcastings und der R-Schätzung 
 
@@ -92,8 +88,7 @@ Drei zentrale Variablen sind im Nowcasting und in der R-Schätzung für jeden Ta
     - jeder Wert mit den Werten der 3 vorhergehenden Tage gemittelt
 - Punktschätzer des 7-Tage-R-Werts
 
-Zu jeder dieser Variablen ist darüber hinaus das 95%-Prädiktionsintervall mit einer Ober- und einer Untergrenze angegeben. In der folgenden Tabelle sind die sich daraus ergebenden Variablen und deren Ausprägungen angegeben:
-
+Zu jeder dieser Variablen ist darüber hinaus das 95%-Prädiktionsintervall mit einer Ober- und einer Untergrenze angegeben. In der folgenden Tabelle sind die sich daraus ergebenden Variablen und deren Ausprägungen angegeben:  
 
 | Merkmal | Ausprägung | Erläuterung |
 | -------- | -------- | -------- |
@@ -108,14 +103,21 @@ Zu jeder dieser Variablen ist darüber hinaus das 95%-Prädiktionsintervall mit 
 |UG_PI_7_Tage_R_Wert| Rationale Zahl | Untere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R-Werts |
 |OG_PI_7_Tage_R_Wert| Rationale Zahl | Obere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R-Werts |
 
+#### Formatierung der Nowcasting-und-R-Schätzung-Tabelle 
 
-### Hinweise zur Nachnutzung der Daten
+Das Nowcasting und die R-Schätzung sind im Datensatz als kommaseparierte .csv-Datei enthalten. Der verwendete Zeichensatz der .csv-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",". Datumsangaben sind im ISO-8601-Standard formatiert.
+
+* Zeichensatz: UTF-8  
+* Datumsformat: ISO 8601  
+* .csv-Trennzeichen: Komma ","  
+
+## Hinweise zur Nachnutzung der Daten
 
 Offene Forschungsdaten des RKI werden auf GitHub.com sowie Zenodo.org bereitgestellt: 
 * https://github.com/robert-koch-institut
 * https://zenodo.org/communities/robertkochinstitut  
 
-#### Metadaten
+### Metadaten
 
 Die bereitgestellten Daten sind mit Metadaten beschrieben und wissenschaftlich zitierbar, u.a. durch die Vergabe einer DOI durch Zenodo.org. Die für den Import in Zenodo bereitgestellten Metadaten sind in folgender Datei hinterlegt:  
 
@@ -123,7 +125,7 @@ Die bereitgestellten Daten sind mit Metadaten beschrieben und wissenschaftlich z
 
 Die Dokumentation der einzelen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar. 
 
-#### Lizenz
+### Lizenz
 
 Der Datensatz "SARS-CoV-2-Nowcasting und -R-Schaetzung" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
 
