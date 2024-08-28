@@ -1,0 +1,54 @@
+{
+  "fields": [
+    {
+      "name": "Datum",
+      "type": "date",
+      "constraints": {}
+    },
+    {
+      "name": "PS_COVID_Faelle",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "UG_PI_COVID_Faelle",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "OG_PI_COVID_Faelle",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "PS_COVID_Faelle_ma4",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "UG_PI_COVID_Faelle_ma4",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "OG_PI_COVID_Faelle_ma4",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "PS_7_Tage_R_Wert",
+      "type": "number",
+      "constraints": {}
+    },
+    {
+      "name": "UG_PI_7_Tage_R_Wert",
+      "type": "number",
+      "constraints": {}
+    },
+    {
+      "name": "OG_PI_7_Tage_R_Wert",
+      "type": "number",
+      "constraints": {}
+    }
+  ]
+}

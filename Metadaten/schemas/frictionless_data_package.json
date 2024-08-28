@@ -1,0 +1,16 @@
+{
+  "name": "sars-cov-2-nowcasting_und_-r-schaetzung",
+  "title": "SARS-CoV-2-Nowcasting_und_-R-Schaetzung",
+  "description": "Frictionless data package. This package lists and describes all data files in this open data repository. For more information on frictionless data, see https://specs.frictionlessdata.io/ and https://framework.frictionlessdata.io/.",
+  "resources": [
+    {
+      "name": "nowcast_r_aktuell",
+      "type": "table",
+      "path": "../../Nowcast_R_aktuell.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "frictionless_data_schema_Nowcast_R_aktuell.json"
+    }
+  ]
+}
