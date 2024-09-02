@@ -3,52 +3,80 @@
     {
       "name": "Datum",
       "type": "date",
-      "description": "Datum (im Format JJJJ-MM-TT) der geschätzten Neuinfektionen und der sich ergebenden R-Werte. JJJJ entspricht der Jahreszahl, MM dem Monat und TT dem Tag."
+      "description": "Datum (im Format JJJJ-MM-TT) der geschätzten Neuinfektionen und der sich ergebenden R-Werte. JJJJ entspricht der Jahreszahl, MM dem Monat und TT dem Tag.",
+      "format": "%Y-%m-%d"
     },
     {
       "name": "PS_COVID_Faelle",
       "type": "integer",
-      "description": "Punktschätzer der Anzahl an Neuerkrankungen (ohne Glättung)"
+      "description": "Punktschätzer der Anzahl an Neuerkrankungen (ohne Glättung)",
+      "constraints": {
+        "minimum": 0
+      }
     },
     {
       "name": "UG_PI_COVID_Faelle",
       "type": "integer",
-      "description": "Untere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (ohne Glättung"
+      "description": "Untere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (ohne Glättung",
+      "constraints": {
+        "minimum": 0
+      }
     },
     {
       "name": "OG_PI_COVID_Faelle",
       "type": "integer",
-      "description": "Obere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (ohne Glättung)"
+      "description": "Obere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (ohne Glättung)",
+      "constraints": {
+        "minimum": 0
+      }
     },
     {
       "name": "PS_COVID_Faelle_ma4",
       "type": "integer",
-      "description": "Punktschätzer der Anzahl an Neuerkrankungen (mit Glättung)"
+      "description": "Punktschätzer der Anzahl an Neuerkrankungen (mit Glättung)",
+      "constraints": {
+        "minimum": 0
+      }
     },
     {
       "name": "UG_PI_COVID_Faelle_ma4",
       "type": "integer",
-      "description": "Untere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (mit Glättung)"
+      "description": "Untere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (mit Glättung)",
+      "constraints": {
+        "minimum": 0
+      }
     },
     {
       "name": "OG_PI_COVID_Faelle_ma4",
       "type": "integer",
-      "description": "Obere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (mit Glättung)"
+      "description": "Obere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (mit Glättung)",
+      "constraints": {
+        "minimum": 0
+      }
     },
     {
       "name": "PS_7_Tage_R_Wert",
       "type": "number",
-      "description": "Punktschätzer des 7-Tage-R-Werts"
+      "description": "Punktschätzer des 7-Tage-R-Werts",
+      "constraints": {
+        "minimum": 0
+      }
     },
     {
       "name": "UG_PI_7_Tage_R_Wert",
       "type": "number",
-      "description": "Untere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R-Werts"
+      "description": "Untere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R-Werts",
+      "constraints": {
+        "minimum": 0
+      }
     },
     {
       "name": "OG_PI_7_Tage_R_Wert",
       "type": "number",
-      "description": "Obere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R-Werts"
+      "description": "Obere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R-Werts",
+      "constraints": {
+        "minimum": 0
+      }
     }
   ]
 }

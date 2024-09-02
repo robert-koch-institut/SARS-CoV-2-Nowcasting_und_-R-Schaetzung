@@ -90,18 +90,18 @@ Drei zentrale Variablen sind im Nowcasting und in der R-Schätzung für jeden Ta
 
 Zu jeder dieser Variablen ist darüber hinaus das 95%-Prädiktionsintervall mit einer Ober- und einer Untergrenze angegeben. In der folgenden Tabelle sind die sich daraus ergebenden Variablen und deren Ausprägungen angegeben:  
 
-| Merkmal | Typ | Erläuterung |
+| Merkmal | Typ | Ausprägungen | Erläuterung |
 | -------- | -------- | -------- |
-| Datum | Datum | Datum (im Format JJJJ-MM-TT) der geschätzten Neuinfektionen und der sich ergebenden R-Werte. JJJJ entspricht der Jahreszahl, MM dem Monat und TT dem Tag. |
-| PS_COVID_Faelle | Natürliche Zahl | Punktschätzer der Anzahl an Neuerkrankungen (ohne Glättung) |
-| UG_PI_COVID_Faelle | Natürliche Zahl | Untere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (ohne Glättung |
-| OG_PI_COVID_Faelle | Natürliche Zahl | Obere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (ohne Glättung) |
-| PS_COVID_Faelle_ma4 | Natürliche Zahl | Punktschätzer der Anzahl an Neuerkrankungen (mit Glättung)|
-| UG_PI_COVID_Faelle_ma4 |Natürliche Zahl |Untere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (mit Glättung) |
-| OG_PI_COVID_Faelle_ma4 | Natürliche Zahl | Obere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (mit Glättung) |
-| PS_7_Tage_R_Wert | Rationale Zahl| Punktschätzer des 7-Tage-R-Werts|
-| UG_PI_7_Tage_R_Wert | Rationale Zahl | Untere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R-Werts |
-| OG_PI_7_Tage_R_Wert | Rationale Zahl | Obere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R-Werts |
+| Datum | Datum | `JJJJ-MM-TT` | Datum (im Format JJJJ-MM-TT) der geschätzten Neuinfektionen und der sich ergebenden R-Werte. JJJJ entspricht der Jahreszahl, MM dem Monat und TT dem Tag. |
+| PS_COVID_Faelle | Natürliche Zahl | `≥0` | Punktschätzer der Anzahl an Neuerkrankungen (ohne Glättung) |
+| UG_PI_COVID_Faelle | Natürliche Zahl | `≥0` | Untere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (ohne Glättung |
+| OG_PI_COVID_Faelle | Natürliche Zahl | `≥0` | Obere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (ohne Glättung) |
+| PS_COVID_Faelle_ma4 | Natürliche Zahl | `≥0` | Punktschätzer der Anzahl an Neuerkrankungen (mit Glättung)|
+| UG_PI_COVID_Faelle_ma4 |Natürliche Zahl | `≥0` |Untere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (mit Glättung) |
+| OG_PI_COVID_Faelle_ma4 | Natürliche Zahl | `≥0`  | Obere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (mit Glättung) |
+| PS_7_Tage_R_Wert | Rationale Zahl | `≥0` | Punktschätzer des 7-Tage-R-Werts|
+| UG_PI_7_Tage_R_Wert | Rationale Zahl | `≥0` | Untere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R-Werts |
+| OG_PI_7_Tage_R_Wert | Rationale Zahl | `≥0` | Obere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R-Werts |
 
 #### Formatierung der Nowcasting-und-R-Schätzung-Tabelle 
 
