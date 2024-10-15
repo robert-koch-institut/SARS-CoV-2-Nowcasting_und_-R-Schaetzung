@@ -1,3 +1,12 @@
+> [!IMPORTANT]
+> **Einstellung des Nowcastings zum 21.06.2023**
+> 
+> Seit dem `21.06.2023` ist die tägliche Berechnung des Nowcasting und des R-Werts durch das RKI eingestellt. Es erfolgt keine weitere Aktualisierung der Daten.  
+> 
+> Im [ARE-Wochenbericht](https://influenza.rki.de/Wochenberichte.aspx) des RKI wird weiterhin über die Zirkulation von SARS-CoV-2 im Rahmen der virologischen Surveillance sowie über die Krankheitslast von akuten > Atemwegserkrankungen in der Bevölkerung, im ambulanten sowie im stationären Bereich im Rahmen der syndromischen Surveillance berichtet werden. (Siehe: [ARE-Wochenbericht, Pandemieradar, frühere COVID-19-Wochenberichte](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html?nn=13490888))
+
+---------
+
 Datensatzdokumentation  
 # SARS-CoV-2-Nowcasting und -R-Schätzung
 
@@ -5,15 +14,21 @@ Datensatzdokumentation
 Nordufer 20  
 13353 Berlin  
 
-[**Matthias an der Heiden**](https://orcid.org/0000-0001-5863-4549)  
-FG 34 | HIV/AIDS und andere sexuell oder durch Blut übertragbare Infektionen  
+<br>
 
-Beitragende:  
-FG 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle  
-[Justus Benzler](https://orcid.org/0000-0002-7470-0849) (Datenkuration)  
-  
-MF 4 | Fach- und Forschungsdatenmanagement  
-[Hannes Wuensche](https://orcid.org/0000-0002-8837-0326) (Datenkuration)  
+[**Matthias an der Heiden**](https://orcid.org/0000-0001-5863-4549)&sup1;   
+
+<br>
+
+**Beitragende**  
+[Justus Benzler](https://orcid.org/0000-0002-7470-0849)&sup2; und [Hannes Wuensche](https://orcid.org/0000-0002-8837-0326)&sup3;
+
+<br>
+
+&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet 34](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG34/FG34_node.html)  
+&emsp;&sup2; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet 32](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html)  
+&emsp;&sup3; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet MF4](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/MF4/mf4_node.html)  
+
 
 ---
 **Zitieren**  
@@ -22,11 +37,6 @@ an der Heiden, Matthias (2023): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin:
 
 ## Informationen zur Studie und zum Forschungskontext
 
-### ⚠️Einstellung des Nowcastings zum 21.06.2023⚠️  
-
-Seit dem `21.06.2023` ist die tägliche Berechnung des Nowcasting und des R-Werts durch das RKI eingestellt. Es erfolgt keine weitere Aktualisierung der Daten.  
-
-Im [ARE-Wochenbericht](https://influenza.rki.de/Wochenberichte.aspx) des RKI wird weiterhin über die Zirkulation von SARS-CoV-2 im Rahmen der virologischen Surveillance sowie über die Krankheitslast von akuten Atemwegserkrankungen in der Bevölkerung, im ambulanten sowie im stationären Bereich im Rahmen der syndromischen Surveillance berichtet werden. (Siehe: [ARE-Wochenbericht, Pandemieradar, frühere COVID-19-Wochenberichte](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html?nn=13490888))
 
 ### Administrative und organisatorische Angaben
 
