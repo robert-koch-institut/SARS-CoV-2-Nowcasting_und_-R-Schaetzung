@@ -103,15 +103,19 @@ Zu jeder dieser Variablen ist darüber hinaus das 95%-Prädiktionsintervall mit 
 | Variable               | Typ     | Ausprägungen         | Beschreibung                                                                                                                                              |
 |:-----------------------|:--------|:---------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Datum                  | date    | Format: `YYYY-MM-DD` | Datum (im Format JJJJ-MM-TT) der geschätzten Neuinfektionen und der sich ergebenden R-Werte. JJJJ entspricht der Jahreszahl, MM dem Monat und TT dem Tag. |
-| PS_COVID_Faelle        | integer | Minimum: 0           | Punktschätzer der Anzahl an Neuerkrankungen (ohne Glättung)                                                                                               |
-| UG_PI_COVID_Faelle     | integer | Minimum: 0           | Untere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (ohne Glättung                                                                  |
-| OG_PI_COVID_Faelle     | integer | Minimum: 0           | Obere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (ohne Glättung)                                                                  |
-| PS_COVID_Faelle_ma4    | integer | Minimum: 0           | Punktschätzer der Anzahl an Neuerkrankungen (mit Glättung)                                                                                                |
-| UG_PI_COVID_Faelle_ma4 | integer | Minimum: 0           | Untere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (mit Glättung)                                                                  |
-| OG_PI_COVID_Faelle_ma4 | integer | Minimum: 0           | Obere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (mit Glättung)                                                                   |
-| PS_7_Tage_R_Wert       | number  | Minimum: 0           | Punktschätzer des 7-Tage-R-Werts                                                                                                                          |
-| UG_PI_7_Tage_R_Wert    | number  | Minimum: 0           | Untere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R-Werts                                                                                            |
-| OG_PI_7_Tage_R_Wert    | number  | Minimum: 0           | Obere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R-Werts                                                                                             |
+| PS_COVID_Faelle        | integer | Werte: ≥0            | Punktschätzer der Anzahl an Neuerkrankungen (ohne Glättung)                                                                                               |
+| UG_PI_COVID_Faelle     | integer | Werte: ≥0            | Untere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (ohne Glättung                                                                  |
+| OG_PI_COVID_Faelle     | integer | Werte: ≥0            | Obere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (ohne Glättung)                                                                  |
+| PS_COVID_Faelle_ma4    | integer | Werte: ≥0            | Punktschätzer der Anzahl an Neuerkrankungen (mit Glättung)                                                                                                |
+| UG_PI_COVID_Faelle_ma4 | integer | Werte: ≥0            | Untere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (mit Glättung)                                                                  |
+| OG_PI_COVID_Faelle_ma4 | integer | Werte: ≥0            | Obere Grenze des 95%-Prädiktionsintervalls der Anzahl an Neuerkrankungen (mit Glättung)                                                                   |
+| PS_7_Tage_R_Wert       | number  | Werte: ≥0            | Punktschätzer des 7-Tage-R-Werts                                                                                                                          |
+| UG_PI_7_Tage_R_Wert    | number  | Werte: ≥0            | Untere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R-Werts                                                                                            |
+| OG_PI_7_Tage_R_Wert    | number  | Werte: ≥0            | Obere Grenze des 95%-Prädiktionsintervalls des 7-Tage-R-Werts                                                                                             |
+
+
+
+
 
 Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_Nowcast_R_aktuell.json`](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/Metadaten/schemas/frictionless_data_schema_Nowcast_R_aktuell.json).
 
