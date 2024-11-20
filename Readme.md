@@ -98,7 +98,7 @@ Drei zentrale Variablen sind im Nowcasting und in der R-Schätzung für jeden Ta
     - jeder Wert mit den Werten der 3 vorhergehenden Tage gemittelt
 - Punktschätzer des 7-Tage-R-Werts
 
-Zu jeder dieser Variablen ist darüber hinaus das 95%-Prädiktionsintervall mit einer Ober- und einer Untergrenze angegeben. In der folgenden Tabelle sind die sich daraus ergebenden Variablen und deren Ausprägungen angegeben:  
+Zu jeder dieser Variablen ist darüber hinaus das 95%-Prädiktionsintervall mit einer Ober- und einer Untergrenze angegeben.
 
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Nowcast_R_aktuell", "lang": "de"} -->
 
@@ -122,11 +122,6 @@ Die Datei [Nowcast_R_aktuell.csv](https://github.com/robert-koch-institut/SARS-C
 <!-- DATA_SCHEMA_TABLE_END -->
 
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
-
-
-
-
-
 
 
 #### Formatierung der Nowcasting-und-R-Schätzung-Tabelle 
