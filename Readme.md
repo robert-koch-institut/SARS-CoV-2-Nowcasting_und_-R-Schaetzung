@@ -102,8 +102,8 @@ Zu jeder dieser Variablen ist darüber hinaus das 95%-Prädiktionsintervall mit 
 
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Nowcast_R_aktuell", "lang": "de"} -->
 
-Die Datei [Nowcast_R_aktuell.csv](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/Nowcast_R_aktuell.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_Nowcast_R_aktuell.json](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/Metadaten/schemas/frictionless_data_schema_Nowcast_R_aktuell.json) hinterlegt:
-> [frictionless_data_schema_Nowcast_R_aktuell.json](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/Metadaten/schemas/frictionless_data_schema_Nowcast_R_aktuell.json)
+Die Datei [Nowcast_R_aktuell.csv](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/Nowcast_R_aktuell.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_Nowcast_R_aktuell.json](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/Metadaten/schemas/tableschema_Nowcast_R_aktuell.json) hinterlegt:
+> [tableschema_Nowcast_R_aktuell.json](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/Metadaten/schemas/tableschema_Nowcast_R_aktuell.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
 | Variable               | Typ     | Ausprägungen         | Beschreibung                                                                                                                                              |
