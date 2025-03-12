@@ -32,8 +32,10 @@ Nordufer 20
 
 ---
 **Zitieren**  
+<!-- CITATION_START: {"citation_style": "apa"} -->
+an der Heiden, M. (2023). SARS-CoV-2-Nowcasting und -R-Schaetzung [Data set]. Zenodo. https://doi.org/10.5281/zenodo.8062328
+<!-- CITATION_END -->
 
-an der Heiden, Matthias (2023): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:[10.5281/zenodo.8062328](https://doi.org/10.5281/zenodo.8062328).  
 
 ## Informationen zur Studie und zum Forschungskontext
 
