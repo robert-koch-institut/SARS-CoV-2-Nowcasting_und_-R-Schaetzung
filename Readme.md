@@ -3,7 +3,7 @@
 > 
 > Seit dem `21.06.2023` ist die tägliche Berechnung des Nowcasting und des R-Werts durch das RKI eingestellt. Es erfolgt keine weitere Aktualisierung der Daten.  
 > 
-> Im [ARE-Wochenbericht](https://influenza.rki.de/Wochenberichte.aspx) des RKI wird weiterhin über die Zirkulation von SARS-CoV-2 im Rahmen der virologischen Surveillance sowie über die Krankheitslast von akuten > Atemwegserkrankungen in der Bevölkerung, im ambulanten sowie im stationären Bereich im Rahmen der syndromischen Surveillance berichtet werden. (Siehe: [ARE-Wochenbericht, Pandemieradar, frühere COVID-19-Wochenberichte](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html?nn=13490888))
+> Im [ARE-Wochenbericht](https://influenza.rki.de/Wochenberichte.aspx) des RKI wird weiterhin über die Zirkulation von SARS-CoV-2 im Rahmen der virologischen Surveillance sowie über die Krankheitslast von akuten > Atemwegserkrankungen in der Bevölkerung, im ambulanten sowie im stationären Bereich im Rahmen der syndromischen Surveillance berichtet werden. (Siehe: [ARE-Wochenbericht, Pandemieradar, frühere COVID-19-Wochenberichte](https://edoc.rki.de/handle/176904/39))
 
 ---------
 
@@ -21,27 +21,29 @@ Nordufer 20
 <br>
 
 **Beitragende**  
-[Justus Benzler](https://orcid.org/0000-0002-7470-0849)&sup2; und [Hannes Wuensche](https://orcid.org/0000-0002-8837-0326)&sup3;
+[Justus Benzler](https://orcid.org/0000-0002-7470-0849)&sup2; und [Hannes Wünsche](https://orcid.org/0000-0002-8837-0326)&sup3;
 
 <br>
 
-&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet 34](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG34/FG34_node.html)  
-&emsp;&sup2; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet 32](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html)  
-&emsp;&sup3; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet MF4](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/MF4/mf4_node.html)  
+&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet 34](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG34/fg34-hiv-aids-und-andere-sexuell-oder-durch-blut-uebertragbare-infektionen-node.html)  
+&emsp;&sup2; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet 32](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG32/fg32-surveillance-und-elektronisches-melde-und-informationssystem-demis-oegd-kontaktstelle-node.html)  
+&emsp;&sup3; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet MF4](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html)  
 
 
 ---
 **Zitieren**  
+<!-- CITATION_START: {"citation_style": "apa"} -->
+an der Heiden, M. (2023). SARS-CoV-2-Nowcasting und -R-Schaetzung [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.8062328](https://doi.org/10.5281/zenodo.8062328)
+<!-- CITATION_END -->
 
-an der Heiden, Matthias (2023): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:[10.5281/zenodo.8062328](https://doi.org/10.5281/zenodo.8062328).  
 
 ## Informationen zur Studie und zum Forschungskontext
 
 
 ### Administrative und organisatorische Angaben
 
-Der Datensatz "SARS-CoV-2-Nowcasting und -R-Schätzung" wird vom Robert Koch-Institut im Zusammenhang mit der SARS-CoV-2-Pandemie bereitgestellt. Autor des Datensatzes ist [Matthias an der Heiden](https://orcid.org/0000-0001-5863-4549), wissenschaftlicher Mitarbeiter des [Fachgebiet 34 | HIV/AIDS und andere sexuell oder durch Blut übertragbare Infektionen](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG34/FG34_node.html) des RKI. Inhaltliche Fragen bezüglich des Nowcastings und der R-Schätzungen können an an das RKI unter [info@rki.de](mailto:info@rki.de) gestellt werden. Das Nowcasting und die R-Schätzung erfolgt seit März 2020 und wird täglich aktualisiert.  
-Die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch [Justus Benzler](https://orcid.org/0000-0002-7470-0849), [Fachgebiet 32 | FG 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html) und [Hannes Wuensche](https://orcid.org/0000-0002-8837-0326), Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html) des RKI. Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.
+Der Datensatz "SARS-CoV-2-Nowcasting und -R-Schätzung" wird vom Robert Koch-Institut im Zusammenhang mit der SARS-CoV-2-Pandemie bereitgestellt. Autor des Datensatzes ist [Matthias an der Heiden](https://orcid.org/0000-0001-5863-4549), wissenschaftlicher Mitarbeiter des [Fachgebiet 34 | HIV/AIDS und andere sexuell oder durch Blut übertragbare Infektionen](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG34/fg34-hiv-aids-und-andere-sexuell-oder-durch-blut-uebertragbare-infektionen-node.html) des RKI. Inhaltliche Fragen bezüglich des Nowcastings und der R-Schätzungen können an an das RKI unter [info@rki.de](mailto:info@rki.de) gestellt werden. Das Nowcasting und die R-Schätzung erfolgt seit März 2020 und wird täglich aktualisiert.  
+Die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch [Justus Benzler](https://orcid.org/0000-0002-7470-0849), [Fachgebiet 32 | FG 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG32/fg32-surveillance-und-elektronisches-melde-und-informationssystem-demis-oegd-kontaktstelle-node.html) und [Hannes Wünsche](https://orcid.org/0000-0002-8837-0326), Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html) des RKI. Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.
 
 
 ### Inhalt und Aufbau des Datensatzes
@@ -132,22 +134,62 @@ Das Nowcasting und die R-Schätzung sind im Datensatz als kommaseparierte .csv-D
 * Datumsformat: ISO 8601  
 * .csv-Trennzeichen: Komma ","  
 
-## Hinweise zur Nachnutzung der Daten
 
-Offene Forschungsdaten des RKI werden auf GitHub.com sowie Zenodo.org bereitgestellt: 
-* https://github.com/robert-koch-institut
-* https://zenodo.org/communities/robertkochinstitut  
+<!-- FOOTER_START: {"lang": "de"} -->
 
-### Metadaten
 
-Die bereitgestellten Daten sind mit Metadaten beschrieben und wissenschaftlich zitierbar, u.a. durch die Vergabe einer DOI durch Zenodo.org. Die für den Import in Zenodo bereitgestellten Metadaten sind in folgender Datei hinterlegt:  
 
-> Metadaten/zenodo.json 
+### Metadaten  
 
-Die Dokumentation der einzelen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar. 
+Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:  
 
-### Lizenz
+> [Metadaten/](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/tree/main/Metadaten/) 
+
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
+ 
+> [Metadaten/zenodo.json](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/Metadaten/zenodo.json)  
+
+In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch der Datenstand in folgendem Format enthalten (Beispiel):  
+
+```
+  "dates": [
+    {
+      "start": "2023-09-11T15:00:21+02:00",
+      "end": "2023-09-11T15:00:21+02:00",
+      "type": "Collected",
+      "description": "Date when the Dataset was created"
+    }
+  ],
+```    
+
+
+Zusätzlich beschreiben wir tabellarische Daten mithilfe des [Data Package Standards](https://datapackage.org/).
+Ein Data Package ist eine strukturierte Sammlung von Daten und zugehörigen Metadaten, die den Austausch und die Wiederverwendung von Daten erleichtert. Es besteht aus einer datapackage.json-Datei, die zentrale Informationen wie die enthaltenen Ressourcen, ihre Formate und Schema-Definitionen beschreibt.
+
+Der Data Package Standard wird von der [Open Knowledge Foundation](https://okfn.org/) bereitgestellt und ist ein offenes Format, das eine einfache, maschinenlesbare Beschreibung von Datensätzen ermöglicht.
+
+Die Liste der in diesem Repository enthaltenen Daten ist in folgender Datei hinterlegt:
+
+> [datapackage.json](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/tree/main/datapackage.json)
+
+Für tabellarische Daten definieren wir zusätzlich ein [Table Schema](https://datapackage.org/standard/table-schema/), das die Struktur der Tabellen beschreibt, einschließlich Spaltennamen, Datentypen und Validierungsregeln. Diese Schema-Dateien finden sich unter:
+
+> [Metadaten/schemas/](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/tree/main/Metadaten/schemas) 
+
+
+
+## Hinweise zur Nachnutzung der Daten  
+
+Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
+
+- https://zenodo.org/communities/robertkochinstitut  
+- https://github.com/robert-koch-institut  
+- https://gitlab.opencode.de/robert-koch-institut  
+- https://edoc.rki.de/  
+ 
+### Lizenz  
 
 Der Datensatz "SARS-CoV-2-Nowcasting und -R-Schaetzung" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
 
-Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Autors als Quelle, frei verfügbar. Das bedeutet,jede_r hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht-kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der LICENSE- bzw. LIZENZ-Datei des Datensatzes.
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/LIZENZ) Datei des Datensatzes.  
+<!-- FOOTER_END -->
