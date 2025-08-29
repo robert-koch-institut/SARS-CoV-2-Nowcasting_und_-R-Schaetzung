@@ -7,34 +7,51 @@
 
 ---------
 
-Datensatzdokumentation  
-# SARS-CoV-2-Nowcasting und -R-Schätzung
-
-[Robert Koch-Institut](https://rki.de) | RKI  
-Nordufer 20  
-13353 Berlin  
-
-<br>
-
-[**Matthias an der Heiden**](https://orcid.org/0000-0001-5863-4549)&sup1;   
-
-<br>
-
-**Beitragende**  
-[Justus Benzler](https://orcid.org/0000-0002-7470-0849)&sup2; und [Hannes Wünsche](https://orcid.org/0000-0002-8837-0326)&sup3;
-
-<br>
-
-&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet 34](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG34/fg34-hiv-aids-und-andere-sexuell-oder-durch-blut-uebertragbare-infektionen-node.html)  
-&emsp;&sup2; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet 32](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG32/fg32-surveillance-und-elektronisches-melde-und-informationssystem-demis-oegd-kontaktstelle-node.html)  
-&emsp;&sup3; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet MF4](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html)  
+<!-- HEADER_START: {"lang": "de"} -->
 
 
----
+Dokumentation  
+# SARS-CoV-2-Nowcasting und -R-Schaetzung
+
+<br> 
+<br> 
+<br> 
+
+[**Matthias an der Heiden**](https://orcid.org/0000-0001-5863-4549)&sup1;
+
+<br> 
+
+**Beitragende**   
+[Justus Benzler](https://orcid.org/0000-0002-7470-0849)&sup2;, & [Hannes Wünsche](https://orcid.org/0000-0002-8837-0326)&sup3;
+
+&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet 34](https://www.rki.de/fg34)  
+&emsp;&emsp;&sup2; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet 32](https://www.rki.de/fg32)  
+&emsp;&emsp;&sup3; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet MF 4](https://www.rki.de/mf4)
+
+<br> 
+
 **Zitieren**  
-<!-- CITATION_START: {"citation_style": "apa"} -->
 an der Heiden, M. (2023). SARS-CoV-2-Nowcasting und -R-Schaetzung [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.8062328](https://doi.org/10.5281/zenodo.8062328)
-<!-- CITATION_END -->
+
+<br>
+
+
+**Zusammenfassung**    
+Im Datensatz "SARS-CoV-2-Nowcasting und -R-Schätzung" des Robert Koch-Instituts wurden von März 2020 bis Juni 2023 täglich aktualisierte epidemiologische Schätzwerte zur COVID-19-Pandemie in Deutschland bereitgestellt. Ziel war es, auf Basis gemeldeter SARS-CoV-2-Infektionen eine zeitnahe Einschätzung des Infektionsgeschehens sowie der effektiven Reproduktionszahl (R-Wert) zu ermöglichen. Der Datensatz umfasst Schätzwerte zur Anzahl an Neuerkrankungen und zum R-Wert.
+
+<br>
+
+**Inhaltsverzeichnis** 
+<!-- TOC_START: {"heading_depth": 2} -->
+  - [Informationen zur Studie und zum Forschungskontext](#informationen-zur-studie-und-zum-forschungskontext)
+  - [Aufbereitung und Auswertung der Daten](#aufbereitung-und-auswertung-der-daten)
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+<!-- TOC_END -->
+
+<br>
+
+<!-- HEADER_END -->
+
 
 
 ## Informationen zur Studie und zum Forschungskontext
@@ -42,8 +59,8 @@ an der Heiden, M. (2023). SARS-CoV-2-Nowcasting und -R-Schaetzung [Data set]. Ze
 
 ### Administrative und organisatorische Angaben
 
-Der Datensatz "SARS-CoV-2-Nowcasting und -R-Schätzung" wird vom Robert Koch-Institut im Zusammenhang mit der SARS-CoV-2-Pandemie bereitgestellt. Autor des Datensatzes ist [Matthias an der Heiden](https://orcid.org/0000-0001-5863-4549), wissenschaftlicher Mitarbeiter des [Fachgebiet 34 | HIV/AIDS und andere sexuell oder durch Blut übertragbare Infektionen](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG34/fg34-hiv-aids-und-andere-sexuell-oder-durch-blut-uebertragbare-infektionen-node.html) des RKI. Inhaltliche Fragen bezüglich des Nowcastings und der R-Schätzungen können an an das RKI unter [info@rki.de](mailto:info@rki.de) gestellt werden. Das Nowcasting und die R-Schätzung erfolgt seit März 2020 und wird täglich aktualisiert.  
-Die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch [Justus Benzler](https://orcid.org/0000-0002-7470-0849), [Fachgebiet 32 | FG 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG32/fg32-surveillance-und-elektronisches-melde-und-informationssystem-demis-oegd-kontaktstelle-node.html) und [Hannes Wünsche](https://orcid.org/0000-0002-8837-0326), Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html) des RKI. Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.
+Der Datensatz "SARS-CoV-2-Nowcasting und -R-Schätzung" wird vom Robert Koch-Institut im Zusammenhang mit der SARS-CoV-2-Pandemie bereitgestellt. Autor des Datensatzes ist [Matthias an der Heiden](https://orcid.org/0000-0001-5863-4549), wissenschaftlicher Mitarbeiter des [Fachgebiet 34 | HIV/AIDS und andere sexuell oder durch Blut übertragbare Infektionen](https://www.rki.de/fg34) des RKI. Inhaltliche Fragen bezüglich des Nowcastings und der R-Schätzungen können an an das RKI unter [info@rki.de](mailto:info@rki.de) gestellt werden. Das Nowcasting und die R-Schätzung erfolgt seit März 2020 und wird täglich aktualisiert.  
+Die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch [Justus Benzler](https://orcid.org/0000-0002-7470-0849), [Fachgebiet 32 | FG 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle](https://www.rki.de/fg32) und [Hannes Wünsche](https://orcid.org/0000-0002-8837-0326), Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/mf4) des RKI. Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.
 
 
 ### Inhalt und Aufbau des Datensatzes
@@ -81,7 +98,7 @@ Eine detaillierte Beschreibung der Methoden, Instrumente und des Verlaufs der Da
 
 ### Daten und Datenaufbereitung
 
-Zentrales Datum des Datensatzes ist die Tabelle mit dem Nowcasting der aktuellen Infektionen und der sich daraus ergebenden R-Werte. Diese sind im Hauptverzeichnis unter "Nowcast_R_aktuell.csv" abrufbar und werden täglich überschrieben. Im Archivordner sind das Nowcasting und die R-Schaetzung unter den Dateinamen "Nowcast_R_JJJJ-MM-TT.csv" enthalten. Im Dateinamen repräsentiert die Sequenz "JJJJ-MM-TT" das Erstellungsdatum der Datei und damit gleichzeitig das Datum des enthaltenen Datenstands. "JJJJ" steht dabei für das Jahr, "MM" für den Monat und "TT" für den Tag der Erstellung bzw. des enthaltenen Datenstands.   
+Der Datensatz enthält die Tabelle mit dem Nowcasting der aktuellen Infektionen und der sich daraus ergebenden R-Werte. Diese sind im Hauptverzeichnis unter "Nowcast_R_aktuell.csv" abrufbar und werden täglich überschrieben. Im Archivordner sind das Nowcasting und die R-Schaetzung unter den Dateinamen "Nowcast_R_JJJJ-MM-TT.csv" enthalten. Im Dateinamen repräsentiert die Sequenz "JJJJ-MM-TT" das Erstellungsdatum der Datei und damit gleichzeitig das Datum des enthaltenen Datenstands. "JJJJ" steht dabei für das Jahr, "MM" für den Monat und "TT" für den Tag der Erstellung bzw. des enthaltenen Datenstands.   
 
 >Nowcast_R_aktuell.csv  
 >Archiv/Nowcast_R_JJJJ-MM-TT.csv  
