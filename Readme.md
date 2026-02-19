@@ -3,14 +3,14 @@
 > 
 > Seit dem `21.06.2023` ist die tägliche Berechnung des Nowcasting und des R-Werts durch das RKI eingestellt. Es erfolgt keine weitere Aktualisierung der Daten.  
 > 
-> Im [ARE-Wochenbericht](https://influenza.rki.de/Wochenberichte.aspx) des RKI wird weiterhin über die Zirkulation von SARS-CoV-2 im Rahmen der virologischen Surveillance sowie über die Krankheitslast von akuten > Atemwegserkrankungen in der Bevölkerung, im ambulanten sowie im stationären Bereich im Rahmen der syndromischen Surveillance berichtet werden. (Siehe: [ARE-Wochenbericht, Pandemieradar, frühere COVID-19-Wochenberichte](https://edoc.rki.de/handle/176904/39))
+> Im [ARE-Wochenbericht](https://influenza.rki.de/Wochenberichte.aspx) des RKI wird weiterhin über die Zirkulation von SARS-CoV-2 im Rahmen der virologischen Surveillance sowie über die Krankheitslast von akuten Atemwegserkrankungen in der Bevölkerung, im ambulanten sowie im stationären Bereich im Rahmen der syndromischen Surveillance berichtet werden. (Siehe: [ARE-Wochenbericht, Pandemieradar, frühere COVID-19-Wochenberichte](https://edoc.rki.de/handle/176904/39))
 
----------
 
 <!-- HEADER_START: {"lang": "de"} -->
 
 
 Dokumentation  
+
 # SARS-CoV-2-Nowcasting und -R-Schaetzung
 
 <br> 
@@ -31,21 +31,24 @@ Dokumentation
 <br> 
 
 **Zitieren**  
+<!-- CITATION_START: {"citation_style": "apa"} -->  
 an der Heiden, M. (2023). SARS-CoV-2-Nowcasting und -R-Schaetzung [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.8062328](https://doi.org/10.5281/zenodo.8062328)
+<!-- CITATION_END -->
+
 
 <br>
-
 
 **Zusammenfassung**    
 Im Datensatz "SARS-CoV-2-Nowcasting und -R-Schätzung" des Robert Koch-Instituts wurden von März 2020 bis Juni 2023 täglich aktualisierte epidemiologische Schätzwerte zur COVID-19-Pandemie in Deutschland bereitgestellt. Ziel war es, auf Basis gemeldeter SARS-CoV-2-Infektionen eine zeitnahe Einschätzung des Infektionsgeschehens sowie der effektiven Reproduktionszahl (R-Wert) zu ermöglichen. Der Datensatz umfasst Schätzwerte zur Anzahl an Neuerkrankungen und zum R-Wert.
 
 <br>
 
-**Inhaltsverzeichnis** 
+**Inhaltsverzeichnis**  
+
 <!-- TOC_START: {"heading_depth": 2} -->
-  - [Informationen zur Studie und zum Forschungskontext](#informationen-zur-studie-und-zum-forschungskontext)
-  - [Aufbereitung und Auswertung der Daten](#aufbereitung-und-auswertung-der-daten)
-  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+  - [Informationen zur Studie und zum Forschungskontext](#informationen-zur-studie-und-zum-forschungskontext)  
+  - [Aufbereitung und Auswertung der Daten](#aufbereitung-und-auswertung-der-daten)  
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)  
 <!-- TOC_END -->
 
 <br>
@@ -122,6 +125,7 @@ Zu jeder dieser Variablen ist darüber hinaus das 95%-Prädiktionsintervall mit 
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Nowcast_R_aktuell", "lang": "de"} -->
 
 Die Datei [Nowcast_R_aktuell.csv](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/Nowcast_R_aktuell.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_Nowcast_R_aktuell.json](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/Metadaten/schemas/tableschema_Nowcast_R_aktuell.json) hinterlegt:
+
 > [tableschema_Nowcast_R_aktuell.json](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/Metadaten/schemas/tableschema_Nowcast_R_aktuell.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
@@ -145,16 +149,14 @@ Die Datei [Nowcast_R_aktuell.csv](https://github.com/robert-koch-institut/SARS-C
 
 #### Formatierung der Nowcasting-und-R-Schätzung-Tabelle 
 
-Das Nowcasting und die R-Schätzung sind im Datensatz als kommaseparierte .csv-Datei enthalten. Der verwendete Zeichensatz der .csv-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",". Datumsangaben sind im ISO-8601-Standard formatiert.
+Das Nowcasting und die R-Schätzung sind im Datensatz als kommaseparierte .csv-Datei enthalten. Der verwendete Zeichensatz der .csv-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma `,`. Datumsangaben sind im ISO-8601-Standard formatiert.
 
 * Zeichensatz: UTF-8  
 * Datumsformat: ISO 8601  
-* .csv-Trennzeichen: Komma ","  
+* .csv-Trennzeichen: Komma `,`  
 
 
 <!-- FOOTER_START: {"lang": "de"} -->
-
-
 
 ### Metadaten  
 
@@ -162,7 +164,7 @@ Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten b
 
 > [Metadaten/](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/tree/main/Metadaten/) 
 
-Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter [https://developers.zenodo.org/#representation](https://developers.zenodo.org/#representation) nachlesbar.
  
 > [Metadaten/zenodo.json](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/blob/main/Metadaten/zenodo.json)  
 
@@ -173,8 +175,8 @@ In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch d
     {
       "start": "2023-09-11T15:00:21+02:00",
       "end": "2023-09-11T15:00:21+02:00",
-      "type": "Collected",
-      "description": "Date when the Dataset was created"
+      "type": "Created",
+      "description": "Date when the published data was created"
     }
   ],
 ```    
@@ -199,11 +201,13 @@ Für tabellarische Daten definieren wir zusätzlich ein [Table Schema](https://d
 
 Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
 
-- https://zenodo.org/communities/robertkochinstitut  
-- https://github.com/robert-koch-institut  
-- https://gitlab.opencode.de/robert-koch-institut  
-- https://edoc.rki.de/  
- 
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)  
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)  
+- [https://gitlab.opencode.de/robert-koch-institut](https://gitlab.opencode.de/robert-koch-institut)  
+- [https://edoc.rki.de/](https://edoc.rki.de/) 
+
+
+
 ### Lizenz  
 
 Der Datensatz "SARS-CoV-2-Nowcasting und -R-Schaetzung" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
